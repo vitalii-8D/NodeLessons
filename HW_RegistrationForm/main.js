@@ -47,10 +47,10 @@ app.post('/register', (req, res) => {
 
         for (const user of users) {
             if (user.name === newUser.name) {
-                res.render('after-register', {nameMistake: true});
+                res.render('pop-ups', {nameMistake: true});
                 return;
             } else if (user.login === newUser.login) {
-                res.render('after-register', {loginMistake: true});
+                res.render('pop-ups', {loginMistake: true});
                 return;
             }
         }
@@ -59,7 +59,7 @@ app.post('/register', (req, res) => {
             if (err) {
                 console.log(err);
             }
-            res.render('after-register', {noMistakes: true});
+            res.render('pop-ups', {noMistakes: true});
         })
     });
 })
@@ -72,7 +72,34 @@ app.get('/users', (req,res) => {
 });
 
 app.get('/logonation', (req, res) => {
-    
+    res.render('logonation');
+})
+
+app.post('/login', (req, res) => {
+    const credentials = req.body;
+    console.log(credentials);
+    fs.readFile(usersPath, (err, data) => {
+        const users = JSON.parse(data.toString());
+        console.log(users);
+        for (const user of users) {
+            if (credentials.login === user.login && credentials.password === user.password) {
+                process.env.currentUser = JSON.stringify(user);
+                res.redirect('/profile')
+            }
+        }
+        res.render('pop-ups', {undefinedUserMistake: true})
+    })
+})
+
+app.get('/profile', (req, res) => {
+    console.log(process.env.currentUser);
+    res.render('profile-page', {user: JSON.parse(process.env.currentUser)});
+});
+
+app.get('/logout', (req, res) => {
+    process.env.currentUser = '';
+    console.log(process.env.currentUser);
+    res.redirect('/');
 })
 
 app.listen(5000, (err) => {

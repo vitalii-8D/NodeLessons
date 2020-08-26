@@ -1,7 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="69737fd3-7f85-4d2a-9a19-fb3599e77b90" name="Default Changelist" comment="" />
+    <list default="true" id="69737fd3-7f85-4d2a-9a19-fb3599e77b90" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../NodeLessons/HW_RegistrationForm/templates/profile-page.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NodeLessons/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../NodeLessons/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NodeLessons/HW_RegistrationForm/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/../NodeLessons/HW_RegistrationForm/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NodeLessons/HW_RegistrationForm/templates/after-register.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/../NodeLessons/HW_RegistrationForm/templates/pop-ups.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NodeLessons/HW_RegistrationForm/templates/logonation.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/../NodeLessons/HW_RegistrationForm/templates/logonation.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NodeLessons/HW_RegistrationForm/templates/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/../NodeLessons/HW_RegistrationForm/templates/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NodeLessons/HW_RegistrationForm/users.json" beforeDir="false" afterPath="$PROJECT_DIR$/../NodeLessons/HW_RegistrationForm/users.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NodeLessons/HW_ScheduleRemover/helper.js" beforeDir="false" afterPath="$PROJECT_DIR$/../NodeLessons/HW_ScheduleRemover/helper.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -10,8 +19,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="CSS File" />
         <option value="JavaScript File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -41,11 +50,11 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="V:\NodeProjects\NodeLessons\HW_RegistrationForm" />
       <recent name="V:\NodeProjects\NodeLessons\HW_RecursiveCopier" />
       <recent name="V:\NodeProjects\NodeLessons\lesson2-24.08\view\images" />
       <recent name="V:\NodeProjects\NodeLessons\lesson2-24.08\view" />
       <recent name="V:\NodeProjects\NodeLessons\lesson1-19i08" />
-      <recent name="V:\NodeProjects\NodeLessons\lesson1-19i08\zoom" />
     </key>
   </component>
   <component name="SvnConfiguration">
@@ -58,45 +67,100 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1598258806821</updated>
-      <workItem from="1598258808073" duration="35867000" />
+      <workItem from="1598258808073" duration="58237000" />
     </task>
+    <task id="LOCAL-00001" summary="-- Debugging of RecursiveCopier">
+      <created>1598407298008</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1598407298008</updated>
+    </task>
+    <task id="LOCAL-00002" summary="-- Debugging of ScheduleRemover">
+      <created>1598412285173</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1598412285173</updated>
+    </task>
+    <task id="LOCAL-00003" summary="-- Debugging of ScheduleRemover">
+      <created>1598412377992</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1598412377992</updated>
+    </task>
+    <task id="LOCAL-00004" summary="-- Almost did register form">
+      <created>1598451063113</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1598451063113</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="2" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="-- Debugging of RecursiveCopier" />
+    <MESSAGE value="-- Debugging of ScheduleRemover" />
+    <MESSAGE value="-- Almost did register form" />
+    <option name="LAST_COMMIT_MESSAGE" value="-- Almost did register form" />
+  </component>
   <component name="WindowStateProjectService">
-    <state x="0" y="45" key="#Inspections" timestamp="1598290916151">
+    <state x="0" y="45" key="#Inspections" timestamp="1598411501002">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="0" y="45" key="#Inspections/0.0.1366.728@0.0.1366.728" timestamp="1598290916151" />
-    <state x="439" y="165" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1598288809247">
+    <state x="0" y="45" key="#Inspections/0.0.1366.728@0.0.1366.728" timestamp="1598411501002" />
+    <state x="439" y="165" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1598443981680">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="439" y="165" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728@0.0.1366.728" timestamp="1598288809247" />
+    <state x="439" y="165" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728@0.0.1366.728" timestamp="1598443981680" />
     <state x="413" y="114" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1598295491612">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="413" y="114" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728@0.0.1366.728" timestamp="1598295491612" />
-    <state x="308" y="44" key="CommitChangelistDialog2" timestamp="1598407202327">
+    <state x="308" y="44" key="CommitChangelistDialog2" timestamp="1598451062375">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="308" y="44" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1598407202327" />
+    <state x="308" y="44" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1598451062375" />
     <state x="463" y="108" key="FileChooserDialogImpl" timestamp="1598407022767">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="463" y="108" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1598407022767" />
+    <state x="553" y="265" key="Github.ShareDialog" timestamp="1598407369104">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="553" y="265" key="Github.ShareDialog/0.0.1366.728@0.0.1366.728" timestamp="1598407369104" />
     <state x="184" y="8" key="SettingsEditor" timestamp="1598291923862">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="184" y="8" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1598291923862" />
+    <state x="275" y="100" key="Vcs.Push.Dialog.v2" timestamp="1598407304533">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="275" y="100" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1598407304533" />
     <state x="288" y="0" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1598404593982">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="288" y="0" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1366.728@0.0.1366.728" timestamp="1598404593982" />
+    <state x="0" y="0" width="1075" height="539" key="dock-window-1" timestamp="1598440703369">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="0" y="0" width="1075" height="539" key="dock-window-1/0.0.1366.728@0.0.1366.728" timestamp="1598440703369" />
     <state x="389" y="0" width="587" height="728" key="find.popup" timestamp="1598284366015">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="389" y="0" width="587" height="728" key="find.popup/0.0.1366.728@0.0.1366.728" timestamp="1598284366015" />
+    <state x="484" y="273" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1598407333021">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="484" y="273" key="git4idea.remote.GitConfigureRemotesDialog/0.0.1366.728@0.0.1366.728" timestamp="1598407333021" />
+    <state x="346" y="49" key="search.everywhere.popup" timestamp="1598445182341">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="346" y="49" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1598445182341" />
   </component>
 </project>

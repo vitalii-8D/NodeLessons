@@ -69,6 +69,7 @@ body {
     margin-bottom: 10px;
 }
 button[type='submit'] {
+    margin-top: 10px;
     margin-bottom: 20px;
 }
 
@@ -108,4 +109,21 @@ button[type='submit'] {
 }
 .all-users-section .btn {
     margin: 0 auto;
+}
+
+    /*PROFILE SECTION*/
+.profile-section {
+    background-color: pink;
+    text-align: center;
+    padding: 20px 30px;
+}
+.profile-header {
+
+}
+.user-data {
+
+}
+.user-data > * {
+    margin-bottom: 10px;
+    font-size: 20px;
 }
