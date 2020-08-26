@@ -9,6 +9,7 @@ const expressHandlebars = require('express-handlebars');
 app.use(express.urlencoded({extended: true}));
 app.use(express.json());
 
+// Створює статичну, ПУБЛІЧНУ бібліотеку, з якої можна за допомогою запитів брвти картинки
 app.use(express.static(path.join(process.cwd(), 'views')));
 
 let arr = [
@@ -28,7 +29,7 @@ app.set('views', path.join(process.cwd(), 'views'));
 app.get('/', (req, res) => {
     console.log(req);
 
-    // res.end('ALL RIGHTnode');
+    // res.end('ALL RIGHT node');
 
     /*res.write('blablabla'); // Дає шось з сєрвака, але не завершує запит
     res.write('blablabla'); // Дає шось з сєрвака, але не завершує запит
@@ -72,17 +73,18 @@ app.post('/reg', (req, res) => {
     // res.redirect('/users');
 });
 
-app.get('/users', (req, res) => {
+/*app.get('/users', (req, res) => {
     res.json([
         {name: 'dima', age: 23},
         {name: 'alena', age: 26},
         {name: 'kolya', age: 16},
         {name: 'Vitalik', age: 20}
     ]);
-});
+});*/
 
 app.post('/users', (req, res) => {
     // req.body - зчитує тіло запиту
+    console.log('req.body');
     console.log(req.body);
 
     res.end('User created');

@@ -15,8 +15,6 @@ const scheduleReplacer = function (firstGroupPath, secondGroupPath) {
         console.log(secondFolder);
     });
 
-    console.log('middle');
-
     for (const item of firstFolder) {
         console.log(item);
         fs.renameSync(path.join(firstGroupPath, item), path.join(secondGroupPath, item), (err) => {
@@ -25,8 +23,6 @@ const scheduleReplacer = function (firstGroupPath, secondGroupPath) {
             }
         })
     }
-
-    console.log('middle2');
 
     for (const item of secondFolder) {
         fs.renameSync(path.join(secondGroupPath, item), path.join(firstGroupPath, item), (err) => {
