@@ -6,8 +6,6 @@ const scheduleReplacer = function (firstGroupPath, secondGroupPath) {
     let firstFolder = [];
     let secondFolder = [];
 
-   
-
     fs.readdirSync(firstGroupPath, (err, listOfFiles) => {
         firstFolder = listOfFiles;
         console.log(firstFolder);
