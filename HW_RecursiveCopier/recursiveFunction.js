@@ -31,20 +31,21 @@ const recursiveCopier = function(targetPath, copiesPath) {
 
 // Функция перезаписывает пустую папку
 
-const deleteAndCreateFolder = function(folderName, rootFolder) {
-    const targetFolderPath = path.join(rootFolder, folderName);
+const deleteAndCreateFolder = function(targetFolderPath) {
 
-    fs.rmdir(targetFolderPath, {recursive: true}, (err) => {
+    fs.rmdirSync(targetFolderPath, {recursive: true}, (err) => {
         if (err) {
             console.log(err);
         }
     });
 
-    fs.mkdir(targetFolderPath, (err) => {
+    fs.mkdirSync(targetFolderPath, (err) => {
         if (err) {
             console.log(err);
         }
     })
+
+    console.log('Folder is cleared');
 }
 
 // Экспорт. Просто экспорт...

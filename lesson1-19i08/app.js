@@ -155,7 +155,7 @@ fs.rename(path.join(process.cwd(), 'dir', 'test2.txt'), path.join(process.cwd(),
     }
 });
 
-    // Як зчитувати дані чатинами
+    // Як зчитувати дані чаcтинами
     // fs.createReadStream схожий на EventEmitter
 const readStream = fs.createReadStream('./video.mp4');
 
