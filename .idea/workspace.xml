@@ -2,63 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="69737fd3-7f85-4d2a-9a19-fb3599e77b90" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../NodeLessons/HW3_Cars1/app.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../NodeLessons/HW3_Cars1/controllers/car.controller.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../NodeLessons/HW3_Cars1/controllers/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../NodeLessons/HW3_Cars1/db/cars-db.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../NodeLessons/HW3_Cars1/db/cars.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../NodeLessons/HW3_Cars1/middlewares/car.middleware.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../NodeLessons/HW3_Cars1/middlewares/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../NodeLessons/HW3_Cars1/routers/car.router.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../NodeLessons/HW3_Cars1/routers/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../NodeLessons/HW3_Cars1/services/car.service.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../NodeLessons/HW3_Cars1/services/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../NodeLessons/HW3_Cars1/templates/home-page.hbs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../NodeLessons/Practice1/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../NodeLessons/Practice1/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../NodeLessons/Practice1/templates/all-users.hbs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../NodeLessons/Practice1/templates/car-form.hbs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../NodeLessons/Practice1/templates/home.hbs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../NodeLessons/Practice1/templates/logonation.hbs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../NodeLessons/Practice1/templates/pop-ups.hbs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../NodeLessons/Practice1/templates/profile-page.hbs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../NodeLessons/Practice1/templates/register-form.hbs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../NodeLessons/Practice1/templates/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../NodeLessons/Practice1/users.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../NodeLessons/lesson3-26.08/app.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../NodeLessons/lesson3-26.08/controllers/user.controller.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../NodeLessons/lesson3-26.08/middlewares/user/check-user-validity.middleware.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../NodeLessons/lesson3-26.08/middlewares/user/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../NodeLessons/lesson3-26.08/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../NodeLessons/lesson3-26.08/routes/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../NodeLessons/lesson3-26.08/routes/schedule.router.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../NodeLessons/lesson3-26.08/routes/user.router.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../NodeLessons/lesson3-26.08/services/user.service.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../NodeLessons/lesson3-26.08/views/image.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../NodeLessons/lesson3-26.08/views/images/image2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../NodeLessons/lesson3-26.08/views/main.hbs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../NodeLessons/lesson3-26.08/views/register.hbs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../NodeLessons/lesson3-26.08/views/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../NodeLessons/lesson3-26.08/views/users.hbs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../NodeLessons/lesson4-31.08/app.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../NodeLessons/lesson4-31.08/controllers/car.controller.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../NodeLessons/lesson4-31.08/controllers/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../NodeLessons/lesson4-31.08/db/cars-db.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../NodeLessons/lesson4-31.08/db/cars.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../NodeLessons/lesson4-31.08/middlewares/car.middleware.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../NodeLessons/lesson4-31.08/middlewares/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../NodeLessons/lesson4-31.08/routers/car.router.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../NodeLessons/lesson4-31.08/routers/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../NodeLessons/lesson4-31.08/services/car.service.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../NodeLessons/lesson4-31.08/services/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../NodeLessons/lesson4-31.08/templates/home-page.hbs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../NodeLessons/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NodeLessons/HW3_Cars1/controllers/user.controller.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NodeLessons/HW3_Cars1/db/users.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NodeLessons/HW3_Cars1/middlewares/user.middleware.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NodeLessons/HW3_Cars1/routers/user.router.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NodeLessons/HW3_Cars1/services/user.service.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../NodeLessons/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../NodeLessons/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../NodeLessons/HW_RegistrationForm/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/../NodeLessons/HW_RegistrationForm/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../NodeLessons/HW_RegistrationForm/templates/logonation.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/../NodeLessons/HW_RegistrationForm/templates/logonation.hbs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../NodeLessons/HW_RegistrationForm/templates/pop-ups.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/../NodeLessons/HW_RegistrationForm/templates/pop-ups.hbs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../NodeLessons/HW_RegistrationForm/templates/profile-page.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/../NodeLessons/HW_RegistrationForm/templates/profile-page.hbs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../NodeLessons/HW_RegistrationForm/users.json" beforeDir="false" afterPath="$PROJECT_DIR$/../NodeLessons/HW_RegistrationForm/users.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NodeLessons/HW3_Cars1/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/../NodeLessons/HW3_Cars1/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NodeLessons/HW3_Cars1/controllers/car.controller.js" beforeDir="false" afterPath="$PROJECT_DIR$/../NodeLessons/HW3_Cars1/controllers/car.controller.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NodeLessons/HW3_Cars1/controllers/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../NodeLessons/HW3_Cars1/controllers/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NodeLessons/HW3_Cars1/db/cars-db.js" beforeDir="false" afterPath="$PROJECT_DIR$/../NodeLessons/HW3_Cars1/db/cars-db.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NodeLessons/HW3_Cars1/db/cars.json" beforeDir="false" afterPath="$PROJECT_DIR$/../NodeLessons/HW3_Cars1/db/cars.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NodeLessons/HW3_Cars1/middlewares/car.middleware.js" beforeDir="false" afterPath="$PROJECT_DIR$/../NodeLessons/HW3_Cars1/middlewares/car.middleware.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NodeLessons/HW3_Cars1/middlewares/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../NodeLessons/HW3_Cars1/middlewares/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NodeLessons/HW3_Cars1/routers/car.router.js" beforeDir="false" afterPath="$PROJECT_DIR$/../NodeLessons/HW3_Cars1/routers/car.router.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NodeLessons/HW3_Cars1/routers/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../NodeLessons/HW3_Cars1/routers/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NodeLessons/HW3_Cars1/services/car.service.js" beforeDir="false" afterPath="$PROJECT_DIR$/../NodeLessons/HW3_Cars1/services/car.service.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NodeLessons/HW3_Cars1/services/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../NodeLessons/HW3_Cars1/services/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -123,7 +83,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1598258806821</updated>
-      <workItem from="1598258808073" duration="104897000" />
+      <workItem from="1598258808073" duration="117519000" />
     </task>
     <task id="LOCAL-00001" summary="-- Debugging of RecursiveCopier">
       <created>1598407298008</created>
@@ -160,7 +120,14 @@
       <option name="project" value="LOCAL" />
       <updated>1598453889520</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="-- HW3 in procces">
+      <created>1598948452762</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1598948452762</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -171,7 +138,8 @@
     <MESSAGE value="-- Debugging of ScheduleRemover" />
     <MESSAGE value="-- Almost did register form" />
     <MESSAGE value="-- Eventually, did all homeworks :)" />
-    <option name="LAST_COMMIT_MESSAGE" value="-- Eventually, did all homeworks :)" />
+    <MESSAGE value="-- HW3 in procces" />
+    <option name="LAST_COMMIT_MESSAGE" value="-- HW3 in procces" />
   </component>
   <component name="WindowStateProjectService">
     <state x="0" y="45" key="#Inspections" timestamp="1598856086541">
@@ -194,10 +162,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="413" y="114" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728@0.0.1366.728" timestamp="1598295491612" />
-    <state x="308" y="44" key="CommitChangelistDialog2" timestamp="1598453888758">
+    <state x="308" y="44" key="CommitChangelistDialog2" timestamp="1598948451808">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="308" y="44" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1598453888758" />
+    <state x="308" y="44" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1598948451808" />
     <state width="254" height="195" key="DatabaseViewActions_Filter" timestamp="1598893811133">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -246,6 +214,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="288" y="0" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1366.728@0.0.1366.728" timestamp="1598404593982" />
+    <state x="532" y="109" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog" timestamp="1598948435571">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="532" y="109" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog/0.0.1366.728@0.0.1366.728" timestamp="1598948435571" />
     <state x="0" y="0" width="1075" height="539" key="dock-window-1" timestamp="1598440703369">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
