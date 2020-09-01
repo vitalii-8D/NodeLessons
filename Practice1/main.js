@@ -54,6 +54,8 @@ app.post('/register', (req, res) => {
                 return;
             }
         }
+        newUser.id = users.length + 1;
+        newUser.cars = [];
         users.push(newUser);
         fs.writeFile(usersPath, JSON.stringify(users), (err) => {
             if (err) {

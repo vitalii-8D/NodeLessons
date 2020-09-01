@@ -18,10 +18,21 @@
             <div>age: {{user.age}}</div>
             <div>eyes: {{user.eyes}}</div>
             <div>music: {{user.music}}</div>
+            <div>Cars:
+                {{#each user.cars}}
+                    <div class="car-item">
+                        <div>{{user.car.model}}</div>
+                        <div>{{user.car.year}}</div>
+                        <div>{{user.car.color}}</div>
+                        <div>{{user.car.power}}</div>
+                    </div>
+                {{/each}}
+            </div>
         </div>
         <div>
             <a href="/logout" class="btn" >Log out</a>
             <a href="/deleting" class="btn">Delete account</a>
+            <a href="/cars-form" class="btn">Add a new car</a>
         </div>
     </div>
 </body>

@@ -1,0 +1,138 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+.container {
+    width: 100%;
+    text-align: center;
+    padding: 20px;
+    background-color: pink;
+}
+.btn {
+    display: inline-block;
+    background-color: orange;
+    border: 1px solid darkred;
+    border-radius: 5px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+    padding: 5px 10px;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    color: darkred;
+    cursor: pointer;
+}
+.btn:hover {
+    background-color: yellow;
+    color: darkblue;
+}
+
+    /*HOME*/
+.main-header {
+    width: 100%;
+    text-align: center;
+    background-color: pink;
+}
+.centered {
+    display: inline-block;
+    margin: 0 auto;
+    padding: 20px;
+}
+.header-title {
+    margin-bottom: 10px;
+}
+.sign-btn:not(:last-child) {
+    margin-right: 15px;
+}
+
+    /*REGISTER FORM*/
+.register-form-container {
+    width: 100%;
+    padding: 20px;
+    background-color: pink;
+    text-align: center;
+}
+.register-form {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: center;
+}
+.register-form > * {
+
+}
+.register-form label {
+
+}
+.register-form input {
+    margin-bottom: 10px;
+}
+button[type='submit'] {
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+
+    /*AFTER REGISTER  /  POP UPs*/
+.pop-up-container {
+    width: 100%;
+    text-align: center;
+    padding: 20px;
+    background-color: lightsalmon;
+}
+.pop-up {
+    margin: 0 auto;
+}
+
+
+    /*ALL USERS*/
+.all-users-section {
+    background-color: pink;
+    padding: 10px 0 20px;
+    text-align: center;
+}
+.user-title {
+    color: darkred;
+    text-align: center;
+}
+.user-container {
+    padding: 10px 0;
+}
+.user-item {
+    display: inline-block;
+    width: 100px;
+    padding: 10px;
+    border: 1px solid blueviolet;
+    border-radius: 5px;
+    margin: 10px 5px;
+}
+.all-users-section .btn {
+    margin: 0 auto;
+}
+
+    /*PROFILE SECTION*/
+.profile-section {
+    background-color: pink;
+    text-align: center;
+    padding: 20px 30px;
+}
+.profile-header {
+
+}
+.user-data {
+
+}
+.user-data > * {
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+
+    /*CARS*/
+.car-item {
+    display: inline-block;
+    border: 1px solid blueviolet;
+    border-radius: 5px;
+    padding: 10px;
+}

@@ -2,14 +2,63 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="69737fd3-7f85-4d2a-9a19-fb3599e77b90" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../NodeLessons/HW_RegistrationForm/templates/profile-page.hbs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NodeLessons/HW3_Cars1/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NodeLessons/HW3_Cars1/controllers/car.controller.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NodeLessons/HW3_Cars1/controllers/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NodeLessons/HW3_Cars1/db/cars-db.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NodeLessons/HW3_Cars1/db/cars.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NodeLessons/HW3_Cars1/middlewares/car.middleware.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NodeLessons/HW3_Cars1/middlewares/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NodeLessons/HW3_Cars1/routers/car.router.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NodeLessons/HW3_Cars1/routers/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NodeLessons/HW3_Cars1/services/car.service.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NodeLessons/HW3_Cars1/services/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NodeLessons/HW3_Cars1/templates/home-page.hbs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NodeLessons/Practice1/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NodeLessons/Practice1/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NodeLessons/Practice1/templates/all-users.hbs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NodeLessons/Practice1/templates/car-form.hbs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NodeLessons/Practice1/templates/home.hbs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NodeLessons/Practice1/templates/logonation.hbs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NodeLessons/Practice1/templates/pop-ups.hbs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NodeLessons/Practice1/templates/profile-page.hbs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NodeLessons/Practice1/templates/register-form.hbs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NodeLessons/Practice1/templates/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NodeLessons/Practice1/users.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NodeLessons/lesson3-26.08/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NodeLessons/lesson3-26.08/controllers/user.controller.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NodeLessons/lesson3-26.08/middlewares/user/check-user-validity.middleware.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NodeLessons/lesson3-26.08/middlewares/user/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NodeLessons/lesson3-26.08/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NodeLessons/lesson3-26.08/routes/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NodeLessons/lesson3-26.08/routes/schedule.router.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NodeLessons/lesson3-26.08/routes/user.router.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NodeLessons/lesson3-26.08/services/user.service.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NodeLessons/lesson3-26.08/views/image.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NodeLessons/lesson3-26.08/views/images/image2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NodeLessons/lesson3-26.08/views/main.hbs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NodeLessons/lesson3-26.08/views/register.hbs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NodeLessons/lesson3-26.08/views/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NodeLessons/lesson3-26.08/views/users.hbs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NodeLessons/lesson4-31.08/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NodeLessons/lesson4-31.08/controllers/car.controller.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NodeLessons/lesson4-31.08/controllers/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NodeLessons/lesson4-31.08/db/cars-db.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NodeLessons/lesson4-31.08/db/cars.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NodeLessons/lesson4-31.08/middlewares/car.middleware.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NodeLessons/lesson4-31.08/middlewares/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NodeLessons/lesson4-31.08/routers/car.router.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NodeLessons/lesson4-31.08/routers/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NodeLessons/lesson4-31.08/services/car.service.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NodeLessons/lesson4-31.08/services/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NodeLessons/lesson4-31.08/templates/home-page.hbs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NodeLessons/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../NodeLessons/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../NodeLessons/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../NodeLessons/HW_RegistrationForm/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/../NodeLessons/HW_RegistrationForm/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../NodeLessons/HW_RegistrationForm/templates/after-register.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/../NodeLessons/HW_RegistrationForm/templates/pop-ups.hbs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../NodeLessons/HW_RegistrationForm/templates/logonation.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/../NodeLessons/HW_RegistrationForm/templates/logonation.hbs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../NodeLessons/HW_RegistrationForm/templates/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/../NodeLessons/HW_RegistrationForm/templates/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NodeLessons/HW_RegistrationForm/templates/pop-ups.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/../NodeLessons/HW_RegistrationForm/templates/pop-ups.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NodeLessons/HW_RegistrationForm/templates/profile-page.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/../NodeLessons/HW_RegistrationForm/templates/profile-page.hbs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../NodeLessons/HW_RegistrationForm/users.json" beforeDir="false" afterPath="$PROJECT_DIR$/../NodeLessons/HW_RegistrationForm/users.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../NodeLessons/HW_ScheduleRemover/helper.js" beforeDir="false" afterPath="$PROJECT_DIR$/../NodeLessons/HW_ScheduleRemover/helper.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,8 +68,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
         <option value="CSS File" />
+        <option value="package.json" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -36,25 +86,31 @@
     <option name="showMembers" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="GitIgnore" />
     <property name="javascript.nodejs.core.library.configured.version" value="12.16.3" />
     <property name="js.last.introduce.type" value="CONST" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../NodeLessons" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../NodeLessons/lesson4-31.08" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="settings.nodejs" />
     <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\WebStorm 2020.1\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="V:\NodeProjects\NodeLessons\lesson4-31.08" />
+      <recent name="V:\NodeProjects\NodeLessons" />
+      <recent name="V:\NodeProjects\NodeLessons\lesson3-26.08" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="V:\NodeProjects\NodeLessons\HW3_Cars1\db" />
       <recent name="V:\NodeProjects\NodeLessons\HW_RegistrationForm" />
       <recent name="V:\NodeProjects\NodeLessons\HW_RecursiveCopier" />
       <recent name="V:\NodeProjects\NodeLessons\lesson2-24.08\view\images" />
       <recent name="V:\NodeProjects\NodeLessons\lesson2-24.08\view" />
-      <recent name="V:\NodeProjects\NodeLessons\lesson1-19i08" />
     </key>
   </component>
   <component name="SvnConfiguration">
@@ -67,7 +123,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1598258806821</updated>
-      <workItem from="1598258808073" duration="58237000" />
+      <workItem from="1598258808073" duration="104897000" />
     </task>
     <task id="LOCAL-00001" summary="-- Debugging of RecursiveCopier">
       <created>1598407298008</created>
@@ -97,7 +153,14 @@
       <option name="project" value="LOCAL" />
       <updated>1598451063113</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="-- Eventually, did all homeworks :)">
+      <created>1598453889519</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1598453889520</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -107,13 +170,22 @@
     <MESSAGE value="-- Debugging of RecursiveCopier" />
     <MESSAGE value="-- Debugging of ScheduleRemover" />
     <MESSAGE value="-- Almost did register form" />
-    <option name="LAST_COMMIT_MESSAGE" value="-- Almost did register form" />
+    <MESSAGE value="-- Eventually, did all homeworks :)" />
+    <option name="LAST_COMMIT_MESSAGE" value="-- Eventually, did all homeworks :)" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="0" y="45" key="#Inspections" timestamp="1598411501002">
+    <state x="0" y="45" key="#Inspections" timestamp="1598856086541">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="0" y="45" key="#Inspections/0.0.1366.728@0.0.1366.728" timestamp="1598411501002" />
+    <state x="0" y="45" key="#Inspections/0.0.1366.728@0.0.1366.728" timestamp="1598856086541" />
+    <state x="365" y="137" width="433" height="364" key="#Notifications" timestamp="1598894944525">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="365" y="137" width="433" height="364" key="#Notifications/0.0.1366.728@0.0.1366.728" timestamp="1598894944525" />
+    <state x="275" y="22" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1598895629389">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="275" y="22" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1598895629389" />
     <state x="439" y="165" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1598443981680">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -122,10 +194,14 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="413" y="114" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728@0.0.1366.728" timestamp="1598295491612" />
-    <state x="308" y="44" key="CommitChangelistDialog2" timestamp="1598451062375">
+    <state x="308" y="44" key="CommitChangelistDialog2" timestamp="1598453888758">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="308" y="44" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1598451062375" />
+    <state x="308" y="44" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1598453888758" />
+    <state width="254" height="195" key="DatabaseViewActions_Filter" timestamp="1598893811133">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="254" height="195" key="DatabaseViewActions_Filter/0.0.1366.728@0.0.1366.728" timestamp="1598893811133" />
     <state x="463" y="108" key="FileChooserDialogImpl" timestamp="1598407022767">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -134,14 +210,38 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="553" y="265" key="Github.ShareDialog/0.0.1366.728@0.0.1366.728" timestamp="1598407369104" />
-    <state x="184" y="8" key="SettingsEditor" timestamp="1598291923862">
+    <state width="1323" height="179" key="GridCell.Tab.0.bottom" timestamp="1598547425573">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="184" y="8" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1598291923862" />
-    <state x="275" y="100" key="Vcs.Push.Dialog.v2" timestamp="1598407304533">
+    <state width="1323" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1598547425573" />
+    <state width="1323" height="179" key="GridCell.Tab.0.center" timestamp="1598547425572">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="100" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1598407304533" />
+    <state width="1323" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1598547425572" />
+    <state width="1323" height="179" key="GridCell.Tab.0.left" timestamp="1598547425572">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1598547425572" />
+    <state width="1323" height="179" key="GridCell.Tab.0.right" timestamp="1598547425572">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1598547425572" />
+    <state width="196" height="457" key="HiddenNamespacesPopup" timestamp="1598894950547">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="196" height="457" key="HiddenNamespacesPopup/0.0.1366.728@0.0.1366.728" timestamp="1598894950547" />
+    <state x="170" y="10" key="SettingsEditor" timestamp="1598547311924">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="170" y="10" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1598547311924" />
+    <state x="275" y="100" key="Vcs.Push.Dialog.v2" timestamp="1598453913092">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="275" y="100" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1598453913092" />
+    <state x="582" y="240" key="com.intellij.database.actions.DdlActions$CreateObject$1" timestamp="1598896393519">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="582" y="240" key="com.intellij.database.actions.DdlActions$CreateObject$1/0.0.1366.728@0.0.1366.728" timestamp="1598896393519" />
     <state x="288" y="0" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1598404593982">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -158,6 +258,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="484" y="273" key="git4idea.remote.GitConfigureRemotesDialog/0.0.1366.728@0.0.1366.728" timestamp="1598407333021" />
+    <state x="339" y="162" key="run.anything.popup" timestamp="1598542635220">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="339" y="162" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1598542635220" />
     <state x="346" y="49" key="search.everywhere.popup" timestamp="1598445182341">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

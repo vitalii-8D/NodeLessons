@@ -1,1 +1,7 @@
-[{"name":"Vitalii","age":21,"eyes":"green","music":"rock","login":"vitalikkeks","password":"password"},{"name":"Maria","age":20,"eyes":"brown","music":"pop","login":"maria007","password":"mariamaria"},{"name":"Kolya","age":23,"eyes":"grey","music":"rock","login":"indeec","password":"bombom"},{"name":"Vasya","login":"vasyanekeks","password":"dsad","age":32,"eyes":"adsd","music":"dasd"},{"name":"Good","login":"good","password":"pass","age":15,"eyes":"red","music":"rap"},{"name":"Dinis","login":"dinis","password":"dinis","age":35,"eyes":"black","music":"ds"},{"name":"Ira","login":"ira","password":"ira","age":18,"eyes":"dsa","music":"sada"}]
+[
+  {"name":"Maria","age":20,"eyes":"brown","music":"pop","login":"maria007","password":"mariamaria"},
+  {"name":"Kolya","age":23,"eyes":"grey","music":"rock","login":"indeec","password":"bombom"},
+  {"name":"Vasya","login":"vasyanekeks","password":"dsad","age":32,"eyes":"adsd","music":"dasd"},
+  {"name":"Good","login":"good","password":"pass","age":15,"eyes":"red","music":"rap"},
+  {"name":"Dinis","login":"dinis","password":"dinis","age":35,"eyes":"black","music":"ds"}
+]
