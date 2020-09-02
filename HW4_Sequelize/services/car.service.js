@@ -1,13 +1,18 @@
 // New code
 // Витягуємо об'єкт для роботи з базою (для Mysql2 зробити просто require('../dataBase');)
-const connection = require('../dataBase').getInstance();
+// Це код від Віті з лекції
+// const connection = require('../dataBase').getInstance();
+
+// Код паші і з менюала
+const {CarModel} = require('../dataBase/models');
 const {Op} = require('sequelize');
 
 module.exports = {
     fetchAllCars: () => {
         // Витягуємо певну модель(треба робити у кожному методі сервіса)
-        const Car = connection.getModel('Car');
-        return Car.findAll({});
+        // Якщо робити за новими правилами - оголошення зверху
+        // const Car = connection.getModel('Car');
+        return CarModel.findAll({});
     },
 
     // Цей запит зроблено бібліотекою Mysql2
@@ -17,27 +22,24 @@ module.exports = {
     },*/
 
     pushCar: (newCarObj) => {
-        const Car = connection.getModel('Car');
-        return Car.create(newCarObj, {new: true});
+        return CarModel.create(newCarObj, {new: true});
     },
     deleteCar(id) {
-        const Car = connection.getModel('Car');
-        return Car.destroy({
+        return CarModel.destroy({
             where: {
                 id: id
             }
         })
     },
     fetchOneCar: (id) => {
-        const Car = connection.getModel('Car');
-        return Car.findByPk(id);
+        return CarModel.findByPk(id);
     },
     updateOneCar: (id, body) => {
-        const Car = connection.getModel('Car');
-        const isUpdateSuccess = Car.update(body, {
+        const car = CarModel.findByPk(id);
+        return CarModel.update(body, {
             where: {
                 id: id
             }
-        })
+        }).then(() => car)
     }
 }

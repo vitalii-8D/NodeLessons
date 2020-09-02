@@ -2,15 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="69737fd3-7f85-4d2a-9a19-fb3599e77b90" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../NodeLessons/HW4_Sequelize/dataBase/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../NodeLessons/HW4_Sequelize/dataBase/models/Car.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NodeLessons/HW4_Sequelize/dataBase/configs.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NodeLessons/HW4_Sequelize/dataBase/models/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../NodeLessons/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../NodeLessons/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../NodeLessons/HW4_Sequelize/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/../NodeLessons/HW4_Sequelize/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../NodeLessons/HW4_Sequelize/controllers/car.controller.js" beforeDir="false" afterPath="$PROJECT_DIR$/../NodeLessons/HW4_Sequelize/controllers/car.controller.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../NodeLessons/HW4_Sequelize/middlewares/car.middleware.js" beforeDir="false" afterPath="$PROJECT_DIR$/../NodeLessons/HW4_Sequelize/middlewares/car.middleware.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../NodeLessons/HW4_Sequelize/routers/car.router.js" beforeDir="false" afterPath="$PROJECT_DIR$/../NodeLessons/HW4_Sequelize/routers/car.router.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NodeLessons/HW4_Sequelize/dataBase/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../NodeLessons/HW4_Sequelize/dataBase/old-index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NodeLessons/HW4_Sequelize/dataBase/models/Car.js" beforeDir="false" afterPath="$PROJECT_DIR$/../NodeLessons/HW4_Sequelize/dataBase/models/Car.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../NodeLessons/HW4_Sequelize/services/car.service.js" beforeDir="false" afterPath="$PROJECT_DIR$/../NodeLessons/HW4_Sequelize/services/car.service.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../NodeLessons/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../NodeLessons/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,7 +74,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1598258806821</updated>
-      <workItem from="1598258808073" duration="142986000" />
+      <workItem from="1598258808073" duration="146453000" />
     </task>
     <task id="LOCAL-00001" summary="-- Debugging of RecursiveCopier">
       <created>1598407298008</created>
@@ -127,7 +125,14 @@
       <option name="project" value="LOCAL" />
       <updated>1598966869378</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="-- HW4 almost done">
+      <created>1599065468054</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1599065468054</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -140,7 +145,9 @@
     <MESSAGE value="-- Eventually, did all homeworks :)" />
     <MESSAGE value="-- HW3 in procces" />
     <MESSAGE value="-- HW3 done" />
-    <option name="LAST_COMMIT_MESSAGE" value="-- HW3 done" />
+    <MESSAGE value="-- HW4 done" />
+    <MESSAGE value="-- HW4 almost done" />
+    <option name="LAST_COMMIT_MESSAGE" value="-- HW4 almost done" />
   </component>
   <component name="WindowStateProjectService">
     <state x="0" y="45" key="#Inspections" timestamp="1598856086541">
@@ -167,10 +174,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="413" y="114" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728@0.0.1366.728" timestamp="1598295491612" />
-    <state x="308" y="44" key="CommitChangelistDialog2" timestamp="1598966868665">
+    <state x="308" y="44" key="CommitChangelistDialog2" timestamp="1599065467238">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="308" y="44" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1598966868665" />
+    <state x="308" y="44" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1599065467238" />
     <state width="254" height="195" key="DatabaseViewActions_Filter" timestamp="1598893811133">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -207,10 +214,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="170" y="10" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1598547311924" />
-    <state x="275" y="100" key="Vcs.Push.Dialog.v2" timestamp="1598453913092">
+    <state x="275" y="100" key="Vcs.Push.Dialog.v2" timestamp="1599065489011">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="100" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1598453913092" />
+    <state x="275" y="100" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1599065489011" />
     <state x="582" y="240" key="com.intellij.database.actions.DdlActions$CreateObject$1" timestamp="1598968017564">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

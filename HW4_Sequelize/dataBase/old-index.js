@@ -1,3 +1,5 @@
+// Це все трохи застарілий метод, ліпше робити в app через sync
+
 const {Sequelize, DataTypes} = require('sequelize');
 const fs = require('fs');
 const path = require('path');
