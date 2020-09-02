@@ -1,8 +1,10 @@
 const express = require('express');
-const path = require('path');
-const {carRouter, userRouter} = require('./routers')
-
+const {carRouter, userRouter} = require('./routers');
 app = express();
+
+//  Тут витягуємо файл бази, дістаємо Instance та встановлюємо моделі
+const instance = require('./dataBase').getInstance();
+instance.setModels();
 
 app.use(express.urlencoded({extended: true}));
 app.use(express.json());

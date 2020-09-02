@@ -1,84 +1,43 @@
-const fs = require('fs');
-const path = require('path');
-// const util = require('util');
-const carsPath = path.join(process.cwd(), 'db', 'cars.json');
-const usersPath = path.join(process.cwd(), 'db', 'users.json');
-
-// const readFilePromised = util.promisify(fs.readFile);
-
-/*async function readFile() {
-    const carsPromise = await readFilePromised(filePath);
-    const cars = await JSON.parse(carsPromise.toString());
-    console.log('readFileFunction ************');
-    console.log(cars);
-    return cars;
-}*/
+// New code
+// Витягуємо об'єкт для роботи з базою (для Mysql2 зробити просто require('../dataBase');)
+const connection = require('../dataBase').getInstance();
+const {Op} = require('sequelize');
 
 module.exports = {
     fetchAllCars: () => {
-        const cars = JSON.parse(fs.readFileSync(carsPath, 'utf-8'));
-        return cars;
-
-        /*const cars = await readFile();
-        console.log('fetchAllCars ******************');
-        console.log(cars);
-        return cars;*/
+        // Витягуємо певну модель(треба робити у кожному методі сервіса)
+        const Car = connection.getModel('Car');
+        return Car.findAll({});
     },
-    pushCar(newCar) {
-        let carsJSON = fs.readFileSync(carsPath, 'utf-8') || '[]';
 
-        let cars = JSON.parse(carsJSON);
-        id = cars.length ? cars[cars.length - 1].id + 1 : 1;
-
-        cars.push({id,...newCar});
-        fs.writeFileSync(carsPath, JSON.stringify(cars), (err) => {
-            if (err) {
-                console.log(err);
-            }
-        })
+    // Цей запит зроблено бібліотекою Mysql2
+    /*fetchAllCars: async () => {
+        const [cars] = await connection.promise().query('SELECT * FROM cars');
         return cars;
+    },*/
+
+    pushCar: (newCarObj) => {
+        const Car = connection.getModel('Car');
+        return Car.create(newCarObj, {new: true});
     },
     deleteCar(id) {
-        let cars = JSON.parse(fs.readFileSync(carsPath, 'utf-8'));
-        for (let i = 0; i < cars.length; i++) {
-            if (cars[i].id === id) {
-                cars.splice(i,1);
-                break;
-            }
-        }
-        fs.writeFileSync(carsPath, JSON.stringify(cars), (err) => {
-            if (err) {
-                console.log(err);
+        const Car = connection.getModel('Car');
+        return Car.destroy({
+            where: {
+                id: id
             }
         })
-        return cars;
     },
     fetchOneCar: (id) => {
-        const cars = JSON.parse(fs.readFileSync(carsPath, 'utf-8'));
-        let index;
-        for (let i = 0; i < cars.length; i++) {
-            if (cars[i].id === id) {
-                index = i;
-                break;
-            }
-        }
-        return cars[index];
+        const Car = connection.getModel('Car');
+        return Car.findByPk(id);
     },
     updateOneCar: (id, body) => {
-        const cars = JSON.parse(fs.readFileSync(carsPath, 'utf-8'));
-        let index;
-        const carToUpdate = cars.find((car, ind) => {
-            index = ind;
-            return car.id === +id;
-        });
-        for (let key in body) {
-            cars[index][key] = body[key];
-        }
-        fs.writeFileSync(carsPath, JSON.stringify(cars), (err) => {
-            if (err) {
-                console.log(err);
+        const Car = connection.getModel('Car');
+        const isUpdateSuccess = Car.update(body, {
+            where: {
+                id: id
             }
         })
-        return cars;
     }
 }

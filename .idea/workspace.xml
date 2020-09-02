@@ -2,23 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="69737fd3-7f85-4d2a-9a19-fb3599e77b90" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../NodeLessons/HW3_Cars1/controllers/user.controller.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../NodeLessons/HW3_Cars1/db/users.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../NodeLessons/HW3_Cars1/middlewares/user.middleware.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../NodeLessons/HW3_Cars1/routers/user.router.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../NodeLessons/HW3_Cars1/services/user.service.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NodeLessons/HW4_Sequelize/dataBase/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NodeLessons/HW4_Sequelize/dataBase/models/Car.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../NodeLessons/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../NodeLessons/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../NodeLessons/HW3_Cars1/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/../NodeLessons/HW3_Cars1/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../NodeLessons/HW3_Cars1/controllers/car.controller.js" beforeDir="false" afterPath="$PROJECT_DIR$/../NodeLessons/HW3_Cars1/controllers/car.controller.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../NodeLessons/HW3_Cars1/controllers/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../NodeLessons/HW3_Cars1/controllers/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../NodeLessons/HW3_Cars1/db/cars-db.js" beforeDir="false" afterPath="$PROJECT_DIR$/../NodeLessons/HW3_Cars1/db/cars-db.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../NodeLessons/HW3_Cars1/db/cars.json" beforeDir="false" afterPath="$PROJECT_DIR$/../NodeLessons/HW3_Cars1/db/cars.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../NodeLessons/HW3_Cars1/middlewares/car.middleware.js" beforeDir="false" afterPath="$PROJECT_DIR$/../NodeLessons/HW3_Cars1/middlewares/car.middleware.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../NodeLessons/HW3_Cars1/middlewares/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../NodeLessons/HW3_Cars1/middlewares/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../NodeLessons/HW3_Cars1/routers/car.router.js" beforeDir="false" afterPath="$PROJECT_DIR$/../NodeLessons/HW3_Cars1/routers/car.router.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../NodeLessons/HW3_Cars1/routers/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../NodeLessons/HW3_Cars1/routers/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../NodeLessons/HW3_Cars1/services/car.service.js" beforeDir="false" afterPath="$PROJECT_DIR$/../NodeLessons/HW3_Cars1/services/car.service.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../NodeLessons/HW3_Cars1/services/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../NodeLessons/HW3_Cars1/services/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NodeLessons/HW4_Sequelize/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/../NodeLessons/HW4_Sequelize/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NodeLessons/HW4_Sequelize/controllers/car.controller.js" beforeDir="false" afterPath="$PROJECT_DIR$/../NodeLessons/HW4_Sequelize/controllers/car.controller.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NodeLessons/HW4_Sequelize/middlewares/car.middleware.js" beforeDir="false" afterPath="$PROJECT_DIR$/../NodeLessons/HW4_Sequelize/middlewares/car.middleware.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NodeLessons/HW4_Sequelize/routers/car.router.js" beforeDir="false" afterPath="$PROJECT_DIR$/../NodeLessons/HW4_Sequelize/routers/car.router.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NodeLessons/HW4_Sequelize/services/car.service.js" beforeDir="false" afterPath="$PROJECT_DIR$/../NodeLessons/HW4_Sequelize/services/car.service.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NodeLessons/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../NodeLessons/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,7 +45,7 @@
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="GitIgnore" />
     <property name="javascript.nodejs.core.library.configured.version" value="12.16.3" />
     <property name="js.last.introduce.type" value="CONST" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../NodeLessons/lesson4-31.08" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../NodeLessons/HW4_Sequelize" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="settings.nodejs" />
@@ -61,6 +53,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="V:\NodeProjects\NodeLessons\HW4_Sequelize" />
       <recent name="V:\NodeProjects\NodeLessons\lesson4-31.08" />
       <recent name="V:\NodeProjects\NodeLessons" />
       <recent name="V:\NodeProjects\NodeLessons\lesson3-26.08" />
@@ -83,7 +76,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1598258806821</updated>
-      <workItem from="1598258808073" duration="117519000" />
+      <workItem from="1598258808073" duration="142986000" />
     </task>
     <task id="LOCAL-00001" summary="-- Debugging of RecursiveCopier">
       <created>1598407298008</created>
@@ -127,7 +120,14 @@
       <option name="project" value="LOCAL" />
       <updated>1598948452762</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="-- HW3 done">
+      <created>1598966869378</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1598966869378</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -139,7 +139,8 @@
     <MESSAGE value="-- Almost did register form" />
     <MESSAGE value="-- Eventually, did all homeworks :)" />
     <MESSAGE value="-- HW3 in procces" />
-    <option name="LAST_COMMIT_MESSAGE" value="-- HW3 in procces" />
+    <MESSAGE value="-- HW3 done" />
+    <option name="LAST_COMMIT_MESSAGE" value="-- HW3 done" />
   </component>
   <component name="WindowStateProjectService">
     <state x="0" y="45" key="#Inspections" timestamp="1598856086541">
@@ -150,10 +151,14 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="365" y="137" width="433" height="364" key="#Notifications/0.0.1366.728@0.0.1366.728" timestamp="1598894944525" />
-    <state x="275" y="22" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1598895629389">
+    <state x="57" y="205" key="#SQL_Dialects" timestamp="1598973677504">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="22" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1598895629389" />
+    <state x="57" y="205" key="#SQL_Dialects/0.0.1366.728@0.0.1366.728" timestamp="1598973677503" />
+    <state x="275" y="22" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1598975078247">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="275" y="22" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1598975078247" />
     <state x="439" y="165" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1598443981680">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -162,10 +167,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="413" y="114" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728@0.0.1366.728" timestamp="1598295491612" />
-    <state x="308" y="44" key="CommitChangelistDialog2" timestamp="1598948451808">
+    <state x="308" y="44" key="CommitChangelistDialog2" timestamp="1598966868665">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="308" y="44" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1598948451808" />
+    <state x="308" y="44" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1598966868665" />
     <state width="254" height="195" key="DatabaseViewActions_Filter" timestamp="1598893811133">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -178,22 +183,22 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="553" y="265" key="Github.ShareDialog/0.0.1366.728@0.0.1366.728" timestamp="1598407369104" />
-    <state width="1323" height="179" key="GridCell.Tab.0.bottom" timestamp="1598547425573">
+    <state width="1323" height="167" key="GridCell.Tab.0.bottom" timestamp="1599043546186">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1598547425573" />
-    <state width="1323" height="179" key="GridCell.Tab.0.center" timestamp="1598547425572">
+    <state width="1323" height="167" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1599043546186" />
+    <state width="1323" height="167" key="GridCell.Tab.0.center" timestamp="1599043546186">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1598547425572" />
-    <state width="1323" height="179" key="GridCell.Tab.0.left" timestamp="1598547425572">
+    <state width="1323" height="167" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1599043546186" />
+    <state width="1323" height="167" key="GridCell.Tab.0.left" timestamp="1599043546186">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1598547425572" />
-    <state width="1323" height="179" key="GridCell.Tab.0.right" timestamp="1598547425572">
+    <state width="1323" height="167" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1599043546186" />
+    <state width="1323" height="167" key="GridCell.Tab.0.right" timestamp="1599043546186">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1598547425572" />
+    <state width="1323" height="167" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1599043546186" />
     <state width="196" height="457" key="HiddenNamespacesPopup" timestamp="1598894950547">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -206,10 +211,18 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="275" y="100" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1598453913092" />
-    <state x="582" y="240" key="com.intellij.database.actions.DdlActions$CreateObject$1" timestamp="1598896393519">
+    <state x="582" y="240" key="com.intellij.database.actions.DdlActions$CreateObject$1" timestamp="1598968017564">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="582" y="240" key="com.intellij.database.actions.DdlActions$CreateObject$1/0.0.1366.728@0.0.1366.728" timestamp="1598896393519" />
+    <state x="582" y="240" key="com.intellij.database.actions.DdlActions$CreateObject$1/0.0.1366.728@0.0.1366.728" timestamp="1598968017564" />
+    <state x="577" y="251" width="316" height="245" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1" timestamp="1598967979774">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="577" y="251" width="316" height="245" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1/0.0.1366.728@0.0.1366.728" timestamp="1598967979774" />
+    <state x="345" y="48" width="619" height="525" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog" timestamp="1598968893795">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="345" y="48" width="619" height="525" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog/0.0.1366.728@0.0.1366.728" timestamp="1598968893795" />
     <state x="288" y="0" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1598404593982">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

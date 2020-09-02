@@ -1,30 +1,49 @@
 const {carService} = require('../services');
 
 module.exports = {
-    getAllCars: (req, res) => {
-        const cars = carService.fetchAllCars();
-        console.log('getAllCars *************');
-        console.log(cars);
-        res.json(cars);
+    getAllCars: async (req, res) => {
+        try {
+            const cars = await carService.fetchAllCars();
+            res.json(cars);
+        } catch (e) {
+            return res.status(400).end(e.message);
+        }
     },
-    addCar: (req, res) => {
-        const newCarsArr = carService.pushCar(req.body);
-        res.json(newCarsArr);
+    addCar: async (req, res) => {
+        try {
+            const newCarsArr = await carService.pushCar(req.body);
+            res.json(newCarsArr);
+        } catch (e) {
+            return res.status(400).end(e.message);
+        }
     },
-    deleteCar: (req, res) => {
-        const {id} = req.params;
-        const newCarsArr = carService.deleteCar(+id);
-        res.json(newCarsArr);
+    deleteCar: async (req, res) => {
+        try {
+            const {id} = req.params;
+            const newCarsArr = await carService.deleteCar(+id);
+            res.json(newCarsArr);
+        } catch (e) {
+            return res.status(400).end(e.message);
+        }
     },
-    getOneCar: (req, res) => {
-        const {id} = req.params;
-        const newCarsArr = carService.fetchOneCar(+id);
-        res.json(newCarsArr);
+    getOneCar: async (req, res) => {
+        try {
+            const {id} = req.params;
+            const newCarsArr = await carService.fetchOneCar(+id);
+            res.json(newCarsArr);
+        } catch (e) {
+            return res.status(400).end(e.message);
+        }
     },
-    updateCar: (req, res) => {
-        const {id} = req.params;
-        const body = req.body;
-        const newCarsArr = carService.updateOneCar(+id, body);
-        res.json(newCarsArr);
+    updateCar: async (req, res) => {
+        try {
+            const {id} = req.params;
+            const body = req.body;
+            const newCarsArr = await carService.updateOneCar(+id, body);
+            console.log(newCarsArr);
+            res.json(newCarsArr);
+        } catch (e) {
+            return res.status(400).end(e.message);
+        }
     }
 }
