@@ -134,6 +134,8 @@ fs.appendFile(filePath, '\nHello again', (err) => {
     // Повертає масив з файлами
 fs.readdir(path.join(process.cwd(), 'dir'), (err, files) => {
     console.log(files);
+    // Вивести розширення файлу
+    // path.extname(files[0]);
 });
 
     // Виводе статистику про файл і методи
