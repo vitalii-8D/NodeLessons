@@ -24,7 +24,7 @@ module.exports = {
     pushCar: (newCarObj) => {
         return CarModel.create(newCarObj, {new: true});
     },
-    deleteCar(id) {
+    deleteCar: (id) => {
         return CarModel.destroy({
             where: {
                 id: id

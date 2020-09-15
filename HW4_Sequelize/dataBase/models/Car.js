@@ -20,6 +20,10 @@ CarModel.init({
     year: {
         type: DataTypes.INTEGER,
         allowNull: false
+    },
+    userId: {
+        type: DataTypes.INTEGER,
+        allowNull: true
     }
 }, {
     sequelize,

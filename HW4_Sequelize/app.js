@@ -1,6 +1,6 @@
 const express = require('express');
 const {carRouter, userRouter} = require('./routers');
-app = express();
+const app = express();
 
 //  Тут витягуємо файл бази, дістаємо Instance та встановлюємо моделі
 // Тут Віті код з лекції

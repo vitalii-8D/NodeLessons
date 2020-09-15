@@ -1,5 +1,0 @@
-[{"id":1,"model":"Mazda","year":2019,"color":"green","power":"800", "userId": 2},
-  {"id":2,"model":"Ferrari","year":2012,"color":"red","power":"900","userId": 2},
-  {"id":3,"model":"Bugatti","year":3000,"color":"seroburomalinovy","power":"100500","userId": 3},
-  {"id":4,"model":"HZ","year":2020,"color":"blue","power":"200","userId": 5},
-  {"id":5,"model":"HZ","year":2020,"color":"blue","power":"200","userId": 5}]
