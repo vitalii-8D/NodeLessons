@@ -29,7 +29,8 @@ module.exports = {
         const user1 = await User.findOne({
             where: {id: id}
         });
-
+        console.log('user********---------------1');
+        console.log(user1);
         const cars1 = await user1.getCars();
         console.log(cars1[0].dataValues);
         console.log(cars1[1].dataValues);

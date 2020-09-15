@@ -1,42 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="69737fd3-7f85-4d2a-9a19-fb3599e77b90" name="Default Changelist" comment="-- HW4 almost done">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HW4_Sequelize/dataBase/models/User.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson5-11i09(Migrations-Errors)/.sequelizerc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson5-11i09(Migrations-Errors)/app.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson5-11i09(Migrations-Errors)/controllers/car.controller.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson5-11i09(Migrations-Errors)/controllers/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson5-11i09(Migrations-Errors)/controllers/user.controller.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson5-11i09(Migrations-Errors)/dataBase/models/Car.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson5-11i09(Migrations-Errors)/dataBase/models/User.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson5-11i09(Migrations-Errors)/middlewares/car.middleware.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson5-11i09(Migrations-Errors)/middlewares/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson5-11i09(Migrations-Errors)/middlewares/user.middleware.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson5-11i09(Migrations-Errors)/routers/api.router.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson5-11i09(Migrations-Errors)/routers/car.router.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson5-11i09(Migrations-Errors)/routers/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson5-11i09(Migrations-Errors)/routers/user.router.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson5-11i09(Migrations-Errors)/services/car.service.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson5-11i09(Migrations-Errors)/services/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson5-11i09(Migrations-Errors)/services/user.service.js" afterDir="false" />
+    <list default="true" id="69737fd3-7f85-4d2a-9a19-fb3599e77b90" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HW4_Sequelize/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/HW4_Sequelize/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HW4_Sequelize/controllers/user.controller.js" beforeDir="false" afterPath="$PROJECT_DIR$/HW4_Sequelize/controllers/user.controller.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HW4_Sequelize/dataBase/models/Car.js" beforeDir="false" afterPath="$PROJECT_DIR$/HW4_Sequelize/dataBase/models/Car.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HW4_Sequelize/dataBase/models/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/HW4_Sequelize/dataBase/models/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HW4_Sequelize/db/cars-db.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HW4_Sequelize/db/cars.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HW4_Sequelize/db/users.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HW4_Sequelize/middlewares/car.middleware.js" beforeDir="false" afterPath="$PROJECT_DIR$/HW4_Sequelize/middlewares/car.middleware.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HW4_Sequelize/middlewares/user.middleware.js" beforeDir="false" afterPath="$PROJECT_DIR$/HW4_Sequelize/middlewares/user.middleware.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HW4_Sequelize/routers/user.router.js" beforeDir="false" afterPath="$PROJECT_DIR$/HW4_Sequelize/routers/user.router.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HW4_Sequelize/services/car.service.js" beforeDir="false" afterPath="$PROJECT_DIR$/HW4_Sequelize/services/car.service.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HW4_Sequelize/services/user.service.js" beforeDir="false" afterPath="$PROJECT_DIR$/HW4_Sequelize/services/user.service.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson5-11i09(Migrations-Errors)/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/lesson5-11i09(Migrations-Errors)/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson5-11i09(Migrations-Errors)/controllers/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/lesson5-11i09(Migrations-Errors)/controllers/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson5-11i09(Migrations-Errors)/middlewares/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/lesson5-11i09(Migrations-Errors)/middlewares/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson5-11i09(Migrations-Errors)/routers/user.router.js" beforeDir="false" afterPath="$PROJECT_DIR$/lesson5-11i09(Migrations-Errors)/routers/user.router.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson5-11i09(Migrations-Errors)/services/user.service.js" beforeDir="false" afterPath="$PROJECT_DIR$/lesson5-11i09(Migrations-Errors)/services/user.service.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -115,7 +86,7 @@
       <workItem from="1599932493581" duration="1831000" />
       <workItem from="1600023294755" duration="2064000" />
       <workItem from="1600068402972" duration="688000" />
-      <workItem from="1600151568449" duration="11059000" />
+      <workItem from="1600151568449" duration="15928000" />
     </task>
     <task id="LOCAL-00001" summary="-- Debugging of RecursiveCopier">
       <created>1598407298008</created>
@@ -180,7 +151,14 @@
       <option name="project" value="LOCAL" />
       <updated>1599804810484</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="-- lesson 5 start">
+      <created>1600170499275</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1600170499275</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -195,7 +173,8 @@
     <MESSAGE value="-- HW3 done" />
     <MESSAGE value="-- HW4 done" />
     <MESSAGE value="-- HW4 almost done" />
-    <option name="LAST_COMMIT_MESSAGE" value="-- HW4 almost done" />
+    <MESSAGE value="-- lesson 5 start" />
+    <option name="LAST_COMMIT_MESSAGE" value="-- lesson 5 start" />
   </component>
   <component name="WindowStateProjectService">
     <state x="0" y="45" key="#Inspections" timestamp="1598856086541">
@@ -224,10 +203,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="413" y="114" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728@0.0.1366.728" timestamp="1598295491612" />
-    <state x="308" y="44" key="CommitChangelistDialog2" timestamp="1599804809122">
+    <state x="308" y="44" key="CommitChangelistDialog2" timestamp="1600170498162">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="308" y="44" key="CommitChangelistDialog2/0.0.1366.728/-1920.-77.1920.1040@0.0.1366.728" timestamp="1599804809122" />
+    <state x="308" y="44" key="CommitChangelistDialog2/0.0.1366.728/-1920.-77.1920.1040@0.0.1366.728" timestamp="1600170498162" />
     <state x="308" y="44" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1599065467238" />
     <state width="254" height="195" key="DatabaseViewActions_Filter" timestamp="1598893811133">
       <screen x="0" y="0" width="1366" height="728" />
@@ -366,17 +345,5 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="346" y="49" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1598445182341" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/lesson5-11i09(Migrations-Errors)/dataBase/models/Car.js</url>
-          <line>8</line>
-          <properties lambdaOrdinal="-1" />
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>

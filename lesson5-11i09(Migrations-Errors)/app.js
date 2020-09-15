@@ -1,6 +1,6 @@
 const express = require('express');
 const {sequelize} = require('./dataBase/models');
-const {apiRouter} = require('./routers')
+const apiRouter = require('./routers/api.router');
 
 const app = express();
 

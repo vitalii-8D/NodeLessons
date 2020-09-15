@@ -5,7 +5,7 @@ const {userMiddleware} = require('../middlewares');
 const {userController} = require('../controllers');
 
 userRouter.get('/', userController.getAllUsers);
-userRouter.post('/', userMiddleware, userController.addUser);
+userRouter.post('/', userMiddleware.userValidator, userController.addUser);
 userRouter.delete('/:id', userController.deleteUser);
 userRouter.get('/:id', userController.getOneUser);
 userRouter.put('/:id', userController.updateUser);
