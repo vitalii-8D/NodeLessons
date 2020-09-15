@@ -2,12 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="69737fd3-7f85-4d2a-9a19-fb3599e77b90" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/lesson5-11i09(Migrations-Errors)/errors/ErrorHandler.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson5-11i09(Migrations-Errors)/dataBase/migrations/20200915124208-create-user-table.js" beforeDir="false" afterPath="$PROJECT_DIR$/lesson5-11i09(Migrations-Errors)/dataBase/migrations/20200915124208-create-user-table.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lesson5-11i09(Migrations-Errors)/dataBase/models/Car.js" beforeDir="false" afterPath="$PROJECT_DIR$/lesson5-11i09(Migrations-Errors)/dataBase/models/Car.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lesson5-11i09(Migrations-Errors)/dataBase/models/User.js" beforeDir="false" afterPath="$PROJECT_DIR$/lesson5-11i09(Migrations-Errors)/dataBase/models/User.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson5-11i09(Migrations-Errors)/services/user.service.js" beforeDir="false" afterPath="$PROJECT_DIR$/lesson5-11i09(Migrations-Errors)/services/user.service.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,7 +83,7 @@
       <workItem from="1599932493581" duration="1831000" />
       <workItem from="1600023294755" duration="2064000" />
       <workItem from="1600068402972" duration="688000" />
-      <workItem from="1600151568449" duration="20575000" />
+      <workItem from="1600151568449" duration="21537000" />
     </task>
     <task id="LOCAL-00001" summary="-- Debugging of RecursiveCopier">
       <created>1598407298008</created>
@@ -165,7 +162,14 @@
       <option name="project" value="LOCAL" />
       <updated>1600176559926</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="-- lesson 5: thinking about join tables">
+      <created>1600185325676</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1600185325676</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -182,7 +186,8 @@
     <MESSAGE value="-- HW4 almost done" />
     <MESSAGE value="-- lesson 5 start" />
     <MESSAGE value="-- lesson 5: add first migration" />
-    <option name="LAST_COMMIT_MESSAGE" value="-- lesson 5: add first migration" />
+    <MESSAGE value="-- lesson 5: thinking about join tables" />
+    <option name="LAST_COMMIT_MESSAGE" value="-- lesson 5: thinking about join tables" />
   </component>
   <component name="WindowStateProjectService">
     <state x="0" y="45" key="#Inspections" timestamp="1598856086541">
@@ -211,10 +216,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="413" y="114" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728@0.0.1366.728" timestamp="1598295491612" />
-    <state x="308" y="44" key="CommitChangelistDialog2" timestamp="1600176559201">
+    <state x="308" y="44" key="CommitChangelistDialog2" timestamp="1600185325050">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="308" y="44" key="CommitChangelistDialog2/0.0.1366.728/-1920.-77.1920.1040@0.0.1366.728" timestamp="1600176559201" />
+    <state x="308" y="44" key="CommitChangelistDialog2/0.0.1366.728/-1920.-77.1920.1040@0.0.1366.728" timestamp="1600185325050" />
     <state x="308" y="44" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1599065467238" />
     <state width="254" height="195" key="DatabaseViewActions_Filter" timestamp="1598893811133">
       <screen x="0" y="0" width="1366" height="728" />
@@ -302,9 +307,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="170" y="10" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1598547311924" />
-    <state x="275" y="100" key="Vcs.Push.Dialog.v2" timestamp="1599065489011">
+    <state x="275" y="100" key="Vcs.Push.Dialog.v2" timestamp="1600185335112">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
+    <state x="275" y="100" key="Vcs.Push.Dialog.v2/0.0.1366.728/-1920.-77.1920.1040@0.0.1366.728" timestamp="1600185335112" />
     <state x="275" y="100" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1599065489011" />
     <state x="582" y="240" key="com.intellij.database.actions.DdlActions$CreateObject$1" timestamp="1599805471664">
       <screen x="0" y="0" width="1366" height="728" />

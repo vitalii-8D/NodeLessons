@@ -21,10 +21,10 @@ module.exports = (sequelize, DataTypes) => {
     }, {
         tableName: 'users',
         timestamps: false,
-        classMethods: {
+        /*classMethods: {
             associate: function(models) {
                 this.hasMany(models.Car, { foreignKey: 'userId' })
             }
-        }
+        }*/
     });
 };
