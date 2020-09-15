@@ -2,11 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="69737fd3-7f85-4d2a-9a19-fb3599e77b90" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/lesson5-11i09(Migrations-Errors)/errors/ErrorHandler.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson5-11i09(Migrations-Errors)/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/lesson5-11i09(Migrations-Errors)/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson5-11i09(Migrations-Errors)/controllers/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/lesson5-11i09(Migrations-Errors)/controllers/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson5-11i09(Migrations-Errors)/middlewares/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/lesson5-11i09(Migrations-Errors)/middlewares/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson5-11i09(Migrations-Errors)/routers/user.router.js" beforeDir="false" afterPath="$PROJECT_DIR$/lesson5-11i09(Migrations-Errors)/routers/user.router.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson5-11i09(Migrations-Errors)/dataBase/migrations/20200915124208-create-user-table.js" beforeDir="false" afterPath="$PROJECT_DIR$/lesson5-11i09(Migrations-Errors)/dataBase/migrations/20200915124208-create-user-table.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson5-11i09(Migrations-Errors)/dataBase/models/Car.js" beforeDir="false" afterPath="$PROJECT_DIR$/lesson5-11i09(Migrations-Errors)/dataBase/models/Car.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson5-11i09(Migrations-Errors)/dataBase/models/User.js" beforeDir="false" afterPath="$PROJECT_DIR$/lesson5-11i09(Migrations-Errors)/dataBase/models/User.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lesson5-11i09(Migrations-Errors)/services/user.service.js" beforeDir="false" afterPath="$PROJECT_DIR$/lesson5-11i09(Migrations-Errors)/services/user.service.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -86,7 +86,7 @@
       <workItem from="1599932493581" duration="1831000" />
       <workItem from="1600023294755" duration="2064000" />
       <workItem from="1600068402972" duration="688000" />
-      <workItem from="1600151568449" duration="15928000" />
+      <workItem from="1600151568449" duration="20575000" />
     </task>
     <task id="LOCAL-00001" summary="-- Debugging of RecursiveCopier">
       <created>1598407298008</created>
@@ -158,7 +158,14 @@
       <option name="project" value="LOCAL" />
       <updated>1600170499275</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="-- lesson 5: add first migration">
+      <created>1600176559926</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1600176559926</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -174,7 +181,8 @@
     <MESSAGE value="-- HW4 done" />
     <MESSAGE value="-- HW4 almost done" />
     <MESSAGE value="-- lesson 5 start" />
-    <option name="LAST_COMMIT_MESSAGE" value="-- lesson 5 start" />
+    <MESSAGE value="-- lesson 5: add first migration" />
+    <option name="LAST_COMMIT_MESSAGE" value="-- lesson 5: add first migration" />
   </component>
   <component name="WindowStateProjectService">
     <state x="0" y="45" key="#Inspections" timestamp="1598856086541">
@@ -203,10 +211,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="413" y="114" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728@0.0.1366.728" timestamp="1598295491612" />
-    <state x="308" y="44" key="CommitChangelistDialog2" timestamp="1600170498162">
+    <state x="308" y="44" key="CommitChangelistDialog2" timestamp="1600176559201">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="308" y="44" key="CommitChangelistDialog2/0.0.1366.728/-1920.-77.1920.1040@0.0.1366.728" timestamp="1600170498162" />
+    <state x="308" y="44" key="CommitChangelistDialog2/0.0.1366.728/-1920.-77.1920.1040@0.0.1366.728" timestamp="1600176559201" />
     <state x="308" y="44" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1599065467238" />
     <state width="254" height="195" key="DatabaseViewActions_Filter" timestamp="1598893811133">
       <screen x="0" y="0" width="1366" height="728" />
@@ -303,19 +311,19 @@
     </state>
     <state x="582" y="240" key="com.intellij.database.actions.DdlActions$CreateObject$1/0.0.1366.728/-1920.-77.1920.1040@0.0.1366.728" timestamp="1599805471664" />
     <state x="582" y="240" key="com.intellij.database.actions.DdlActions$CreateObject$1/0.0.1366.728@0.0.1366.728" timestamp="1598968017564" />
-    <state x="577" y="251" width="316" height="245" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1" timestamp="1599808525697">
+    <state x="577" y="251" width="316" height="245" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1" timestamp="1600177732126">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="577" y="251" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1/0.0.1366.728/-1920.-77.1920.1040@0.0.1366.728" timestamp="1599808525697" />
+    <state x="577" y="251" width="316" height="245" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1/0.0.1366.728/-1920.-77.1920.1040@0.0.1366.728" timestamp="1600177732126" />
     <state x="577" y="251" width="316" height="245" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1/0.0.1366.728@0.0.1366.728" timestamp="1598967979774" />
-    <state x="479" y="184" width="408" height="356" key="com.intellij.database.psi.DbRenamePsiElementProcessor.DbRenameDialog" timestamp="1599807792925">
+    <state x="479" y="184" width="408" height="356" key="com.intellij.database.psi.DbRenamePsiElementProcessor.DbRenameDialog" timestamp="1600184910634">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="479" y="184" width="408" height="356" key="com.intellij.database.psi.DbRenamePsiElementProcessor.DbRenameDialog/0.0.1366.728/-1920.-77.1920.1040@0.0.1366.728" timestamp="1599807792925" />
-    <state x="345" y="48" width="748" height="603" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog" timestamp="1599819308370">
+    <state x="479" y="184" width="408" height="356" key="com.intellij.database.psi.DbRenamePsiElementProcessor.DbRenameDialog/0.0.1366.728/-1920.-77.1920.1040@0.0.1366.728" timestamp="1600184910634" />
+    <state x="345" y="48" width="748" height="603" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog" timestamp="1600184923274">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="345" y="48" width="748" height="603" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog/0.0.1366.728/-1920.-77.1920.1040@0.0.1366.728" timestamp="1599819308370" />
+    <state x="345" y="48" width="748" height="603" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog/0.0.1366.728/-1920.-77.1920.1040@0.0.1366.728" timestamp="1600184923274" />
     <state x="345" y="48" width="619" height="525" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog/0.0.1366.728@0.0.1366.728" timestamp="1598968893795" />
     <state x="288" y="0" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1598404593982">
       <screen x="0" y="0" width="1366" height="728" />

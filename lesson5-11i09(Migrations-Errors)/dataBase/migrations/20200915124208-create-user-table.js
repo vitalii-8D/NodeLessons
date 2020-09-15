@@ -10,13 +10,19 @@ module.exports = {
      * await queryInterface.createTable('users', { id: Sequelize.INTEGER });
      */
 
-    await queryInterface.createTable('users', {
+    await queryInterface.createTable('users2', {
       id: {
         type: DataTypes.INTEGER,
         autoIncrement: true,
-        allowNull: false
+        allowNull: false,
+        primaryKey: true
       },
       name: {
+        type: DataTypes.STRING,
+        allowNull: false,
+        defaultValue: 'VITALIONS'
+      },
+      surname: {
         type: DataTypes.STRING,
         allowNull: false,
         defaultValue: 'VITALIONS'
@@ -37,6 +43,6 @@ module.exports = {
      * await queryInterface.dropTable('users');
      */
 
-    await queryInterface.dropTable('users');
+    await queryInterface.dropTable('users2');
   }
 };

@@ -1,6 +1,11 @@
 const {User} = require('../dataBase/models');
 const {Car} = require('../dataBase/models');
 const {Op} = require('sequelize');
+/*Car.belongsTo(User, {foreignKey: 'userId', name: 'userId'});
+User.hasMany(Car, {
+    onDelete: 'SET NULL',
+    onUpdate: 'RESTRICT',
+});*/
 
 module.exports = {
     fetchAllUsers: () => {
@@ -31,7 +36,7 @@ module.exports = {
         });
         console.log('user********---------------1');
         console.log(user1);
-        const cars1 = await user1.getCars();
+        const cars1 = await user1.getCar();
         console.log(cars1[0].dataValues);
         console.log(cars1[1].dataValues);
 

@@ -23,6 +23,11 @@ module.exports = (sequelize, DataTypes) => {
         }
     }, {
         tableName: 'cars',
-        timestamps: false
+        timestamps: false,
+        classMethods: {
+            associate: function(models) {
+                this.belongsTo(models.User)
+            }
+        }
     });
 };

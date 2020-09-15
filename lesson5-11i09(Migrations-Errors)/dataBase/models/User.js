@@ -20,6 +20,11 @@ module.exports = (sequelize, DataTypes) => {
         }
     }, {
         tableName: 'users',
-        timestamps: false
+        timestamps: false,
+        classMethods: {
+            associate: function(models) {
+                this.hasMany(models.Car, { foreignKey: 'userId' })
+            }
+        }
     });
 };
