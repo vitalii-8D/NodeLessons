@@ -8,15 +8,21 @@ module.exports = {
         return User.findAll({});
     },
     pushUser: (newUserObj) => {
+        console.log('I`m in service !!!!!');
         return User.create(newUserObj, {new: true});
     },
     deleteUser: (id) => {
         return User.destroy({
-            where: {id: id}
+            where: {id}
         });
     },
     fetchOneUser: (id) => {
         return User.findByPk(id);
+    },
+    findByParams: (searchObj) => {
+        return User.findOne({
+            where: searchObj
+        })
     },
     updateOneUser: async (id, body) => {
         const updatedUser = await User.findByPk(id);
