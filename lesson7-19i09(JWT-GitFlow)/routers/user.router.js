@@ -10,6 +10,6 @@ userRouter.delete('/:id', userController.deleteUser);
 userRouter.get('/:id', userController.getOneUser);
 userRouter.put('/:id', userController.updateUser);
 userRouter.get('/:id/cars', userController.getCarsOfUser);
-userRouter.post('/:id/cars', userController.getCarsOfUser);
+// userRouter.post('/:id/cars', userController.getCarsOfUser);
 
 module.exports = userRouter;

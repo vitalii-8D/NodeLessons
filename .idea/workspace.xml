@@ -2,43 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="69737fd3-7f85-4d2a-9a19-fb3599e77b90" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/lesson7-19i09(JWT-GitFlow)/.sequelizerc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson7-19i09(JWT-GitFlow)/app.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson7-19i09(JWT-GitFlow)/configs/regex.enum.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson7-19i09(JWT-GitFlow)/configs/sequelize.config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson7-19i09(JWT-GitFlow)/controllers/auth.controller.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson7-19i09(JWT-GitFlow)/controllers/car.controller.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson7-19i09(JWT-GitFlow)/controllers/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson7-19i09(JWT-GitFlow)/controllers/user.controller.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson7-19i09(JWT-GitFlow)/dataBase/migrations/20200919085441-create-users-table.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson7-19i09(JWT-GitFlow)/dataBase/migrations/20200919085446-create-cars-table.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson7-19i09(JWT-GitFlow)/dataBase/models/Car.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson7-19i09(JWT-GitFlow)/dataBase/models/User.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson7-19i09(JWT-GitFlow)/dataBase/models/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson7-19i09(JWT-GitFlow)/dataBase/seeders/20200919090828-insert-cars.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson7-19i09(JWT-GitFlow)/dataBase/seeders/20200919090837-insert-users.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson7-19i09(JWT-GitFlow)/errors/ErrorHandler.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson7-19i09(JWT-GitFlow)/errors/errors.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson7-19i09(JWT-GitFlow)/errors/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson7-19i09(JWT-GitFlow)/errors/statusCodes.enum.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson7-19i09(JWT-GitFlow)/helpers/hash-password.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson7-19i09(JWT-GitFlow)/helpers/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson7-19i09(JWT-GitFlow)/helpers/password-comparator.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson7-19i09(JWT-GitFlow)/middlewares/car.middleware.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson7-19i09(JWT-GitFlow)/middlewares/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson7-19i09(JWT-GitFlow)/middlewares/user.middleware.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson7-19i09(JWT-GitFlow)/routers/api.router.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson7-19i09(JWT-GitFlow)/routers/auth.router.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson7-19i09(JWT-GitFlow)/routers/car.router.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson7-19i09(JWT-GitFlow)/routers/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson7-19i09(JWT-GitFlow)/routers/user.router.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson7-19i09(JWT-GitFlow)/services/car.service.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson7-19i09(JWT-GitFlow)/services/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson7-19i09(JWT-GitFlow)/services/user.service.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson7-19i09(JWT-GitFlow)/validators/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson7-19i09(JWT-GitFlow)/validators/user/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson7-19i09(JWT-GitFlow)/validators/user/new-user.validator.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson7-19i09(JWT-GitFlow)/helpers/tokenizer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson7-19i09(JWT-GitFlow)/middlewares/token.middleware.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson7-19i09(JWT-GitFlow)/controllers/auth.controller.js" beforeDir="false" afterPath="$PROJECT_DIR$/lesson7-19i09(JWT-GitFlow)/controllers/auth.controller.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson7-19i09(JWT-GitFlow)/helpers/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/lesson7-19i09(JWT-GitFlow)/helpers/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson7-19i09(JWT-GitFlow)/middlewares/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/lesson7-19i09(JWT-GitFlow)/middlewares/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson7-19i09(JWT-GitFlow)/middlewares/user.middleware.js" beforeDir="false" afterPath="$PROJECT_DIR$/lesson7-19i09(JWT-GitFlow)/middlewares/user.middleware.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson7-19i09(JWT-GitFlow)/routers/auth.router.js" beforeDir="false" afterPath="$PROJECT_DIR$/lesson7-19i09(JWT-GitFlow)/routers/auth.router.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson7-19i09(JWT-GitFlow)/routers/car.router.js" beforeDir="false" afterPath="$PROJECT_DIR$/lesson7-19i09(JWT-GitFlow)/routers/car.router.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson7-19i09(JWT-GitFlow)/routers/user.router.js" beforeDir="false" afterPath="$PROJECT_DIR$/lesson7-19i09(JWT-GitFlow)/routers/user.router.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -121,7 +95,7 @@
       <workItem from="1600498015556" duration="18807000" />
       <workItem from="1600542893638" duration="1650000" />
       <workItem from="1600586617418" duration="8953000" />
-      <workItem from="1600622968226" duration="14010000" />
+      <workItem from="1600622968226" duration="21897000" />
     </task>
     <task id="LOCAL-00001" summary="-- Debugging of RecursiveCopier">
       <created>1598407298008</created>
@@ -221,7 +195,14 @@
       <option name="project" value="LOCAL" />
       <updated>1600642501277</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="-- lesson 7: Begining">
+      <created>1600654150472</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1600654150472</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -240,7 +221,8 @@
     <MESSAGE value="-- lesson 5: add first migration" />
     <MESSAGE value="-- lesson 5: thinking about join tables" />
     <MESSAGE value="-- lesson 6: Done" />
-    <option name="LAST_COMMIT_MESSAGE" value="-- lesson 6: Done" />
+    <MESSAGE value="-- lesson 7: Begining" />
+    <option name="LAST_COMMIT_MESSAGE" value="-- lesson 7: Begining" />
   </component>
   <component name="WindowStateProjectService">
     <state x="0" y="45" key="#Inspections" timestamp="1598856086541">
@@ -269,11 +251,11 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="413" y="114" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728@0.0.1366.728" timestamp="1598295491612" />
-    <state x="308" y="44" key="CommitChangelistDialog2" timestamp="1600642500164">
+    <state x="308" y="44" key="CommitChangelistDialog2" timestamp="1600654149718">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="308" y="44" key="CommitChangelistDialog2/0.0.1366.728/-1920.-77.1920.1040@0.0.1366.728" timestamp="1600186824962" />
-    <state x="308" y="44" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1600642500164" />
+    <state x="308" y="44" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1600654149718" />
     <state width="254" height="195" key="DatabaseViewActions_Filter" timestamp="1598893811133">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -287,22 +269,22 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="553" y="265" key="Github.ShareDialog/0.0.1366.728@0.0.1366.728" timestamp="1598407369104" />
-    <state width="1323" height="167" key="GridCell.Tab.0.bottom" timestamp="1600641550994">
+    <state width="1323" height="167" key="GridCell.Tab.0.bottom" timestamp="1600656356891">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="167" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1600641550994" />
-    <state width="1323" height="167" key="GridCell.Tab.0.center" timestamp="1600641550994">
+    <state width="1323" height="167" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1600656356891" />
+    <state width="1323" height="167" key="GridCell.Tab.0.center" timestamp="1600656356891">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="167" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1600641550994" />
-    <state width="1323" height="167" key="GridCell.Tab.0.left" timestamp="1600641550993">
+    <state width="1323" height="167" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1600656356891" />
+    <state width="1323" height="167" key="GridCell.Tab.0.left" timestamp="1600656356891">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="167" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1600641550993" />
-    <state width="1323" height="167" key="GridCell.Tab.0.right" timestamp="1600641550994">
+    <state width="1323" height="167" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1600656356891" />
+    <state width="1323" height="167" key="GridCell.Tab.0.right" timestamp="1600656356891">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="167" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1600641550994" />
+    <state width="1323" height="167" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1600656356891" />
     <state width="1323" height="223" key="GridCell.Tab.1.bottom" timestamp="1599230515521">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -360,11 +342,11 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="170" y="10" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1598547311924" />
-    <state x="275" y="100" key="Vcs.Push.Dialog.v2" timestamp="1600186829036">
+    <state x="275" y="100" key="Vcs.Push.Dialog.v2" timestamp="1600654157124">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="275" y="100" key="Vcs.Push.Dialog.v2/0.0.1366.728/-1920.-77.1920.1040@0.0.1366.728" timestamp="1600186829036" />
-    <state x="275" y="100" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1599065489011" />
+    <state x="275" y="100" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1600654157124" />
     <state x="582" y="240" key="com.intellij.database.actions.DdlActions$CreateObject$1" timestamp="1599805471664">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

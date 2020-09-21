@@ -32,7 +32,7 @@ module.exports = {
     isUserPresent: async (req, res, next) => {
         try {
             const inputCredentials = req.body;
-            const user = await userService.findByParams({ username: inputCredentials.username })
+            const user = await userService.findByParams({username: inputCredentials.username})
 
             if (!user) {
                 return next(new ErrorHandler(
@@ -47,10 +47,14 @@ module.exports = {
             return next(e)
         }
     },
-    isUsernameUsed: (req, res, next) => {
+    isUsernameUsed: async (req, res, next) => {
         try {
             const {username} = req.body;
-            const user = userService.findByParams({username});
+            console.log('username*************************');
+            console.log(username);
+            const user = await userService.findByParams({username});
+            console.log('user****************************');
+            console.log(user);
 
             if (user) {
                 return next(new ErrorHandler(
@@ -59,9 +63,9 @@ module.exports = {
                     errors.USERNAME_IS_USED.code
                 ))
             }
-
+            next();
         } catch (e) {
-
+            next(e);
         }
     }
 }
