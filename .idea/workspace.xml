@@ -2,57 +2,43 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="69737fd3-7f85-4d2a-9a19-fb3599e77b90" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/lesson5-11i09(Migrations-Errors)/configs/sequelize.config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson5-11i09(Migrations-Errors)/errors/errors.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson5-11i09(Migrations-Errors)/errors/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson5-11i09(Migrations-Errors)/errors/statusCodes.enum.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson6-19i09(Joi-Bcrypt)/.sequelizerc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson6-19i09(Joi-Bcrypt)/app.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson6-19i09(Joi-Bcrypt)/configs/regex.enum.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson6-19i09(Joi-Bcrypt)/configs/sequelize.config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson6-19i09(Joi-Bcrypt)/controllers/auth.controller.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson6-19i09(Joi-Bcrypt)/controllers/car.controller.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson6-19i09(Joi-Bcrypt)/controllers/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson6-19i09(Joi-Bcrypt)/controllers/user.controller.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson6-19i09(Joi-Bcrypt)/dataBase/migrations/20200919085441-create-users-table.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson6-19i09(Joi-Bcrypt)/dataBase/migrations/20200919085446-create-cars-table.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson6-19i09(Joi-Bcrypt)/dataBase/models/Car.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson6-19i09(Joi-Bcrypt)/dataBase/models/User.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson6-19i09(Joi-Bcrypt)/dataBase/models/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson6-19i09(Joi-Bcrypt)/dataBase/seeders/20200919090828-insert-cars.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson6-19i09(Joi-Bcrypt)/dataBase/seeders/20200919090837-insert-users.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson6-19i09(Joi-Bcrypt)/errors/ErrorHandler.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson6-19i09(Joi-Bcrypt)/errors/errors.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson6-19i09(Joi-Bcrypt)/errors/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson6-19i09(Joi-Bcrypt)/errors/statusCodes.enum.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson6-19i09(Joi-Bcrypt)/hash-maker.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson6-19i09(Joi-Bcrypt)/helpers/hash-password.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson6-19i09(Joi-Bcrypt)/helpers/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson6-19i09(Joi-Bcrypt)/helpers/password-comparator.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson6-19i09(Joi-Bcrypt)/middlewares/car.middleware.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson6-19i09(Joi-Bcrypt)/middlewares/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson6-19i09(Joi-Bcrypt)/middlewares/user.middleware.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson6-19i09(Joi-Bcrypt)/routers/api.router.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson6-19i09(Joi-Bcrypt)/routers/auth.router.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson6-19i09(Joi-Bcrypt)/routers/car.router.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson6-19i09(Joi-Bcrypt)/routers/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson6-19i09(Joi-Bcrypt)/routers/user.router.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson6-19i09(Joi-Bcrypt)/services/car.service.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson6-19i09(Joi-Bcrypt)/services/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson6-19i09(Joi-Bcrypt)/services/user.service.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson6-19i09(Joi-Bcrypt)/validators/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson6-19i09(Joi-Bcrypt)/validators/user/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson6-19i09(Joi-Bcrypt)/validators/user/new-user.validator.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson7-19i09(JWT-GitFlow)/.sequelizerc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson7-19i09(JWT-GitFlow)/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson7-19i09(JWT-GitFlow)/configs/regex.enum.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson7-19i09(JWT-GitFlow)/configs/sequelize.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson7-19i09(JWT-GitFlow)/controllers/auth.controller.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson7-19i09(JWT-GitFlow)/controllers/car.controller.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson7-19i09(JWT-GitFlow)/controllers/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson7-19i09(JWT-GitFlow)/controllers/user.controller.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson7-19i09(JWT-GitFlow)/dataBase/migrations/20200919085441-create-users-table.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson7-19i09(JWT-GitFlow)/dataBase/migrations/20200919085446-create-cars-table.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson7-19i09(JWT-GitFlow)/dataBase/models/Car.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson7-19i09(JWT-GitFlow)/dataBase/models/User.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson7-19i09(JWT-GitFlow)/dataBase/models/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson7-19i09(JWT-GitFlow)/dataBase/seeders/20200919090828-insert-cars.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson7-19i09(JWT-GitFlow)/dataBase/seeders/20200919090837-insert-users.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson7-19i09(JWT-GitFlow)/errors/ErrorHandler.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson7-19i09(JWT-GitFlow)/errors/errors.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson7-19i09(JWT-GitFlow)/errors/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson7-19i09(JWT-GitFlow)/errors/statusCodes.enum.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson7-19i09(JWT-GitFlow)/helpers/hash-password.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson7-19i09(JWT-GitFlow)/helpers/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson7-19i09(JWT-GitFlow)/helpers/password-comparator.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson7-19i09(JWT-GitFlow)/middlewares/car.middleware.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson7-19i09(JWT-GitFlow)/middlewares/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson7-19i09(JWT-GitFlow)/middlewares/user.middleware.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson7-19i09(JWT-GitFlow)/routers/api.router.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson7-19i09(JWT-GitFlow)/routers/auth.router.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson7-19i09(JWT-GitFlow)/routers/car.router.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson7-19i09(JWT-GitFlow)/routers/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson7-19i09(JWT-GitFlow)/routers/user.router.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson7-19i09(JWT-GitFlow)/services/car.service.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson7-19i09(JWT-GitFlow)/services/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson7-19i09(JWT-GitFlow)/services/user.service.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson7-19i09(JWT-GitFlow)/validators/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson7-19i09(JWT-GitFlow)/validators/user/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson7-19i09(JWT-GitFlow)/validators/user/new-user.validator.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson5-11i09(Migrations-Errors)/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/lesson5-11i09(Migrations-Errors)/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson5-11i09(Migrations-Errors)/dataBase/models/Car.js" beforeDir="false" afterPath="$PROJECT_DIR$/lesson5-11i09(Migrations-Errors)/dataBase/models/Car.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson5-11i09(Migrations-Errors)/dataBase/models/User.js" beforeDir="false" afterPath="$PROJECT_DIR$/lesson5-11i09(Migrations-Errors)/dataBase/models/User.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson5-11i09(Migrations-Errors)/errors/ErrorHandler.js" beforeDir="false" afterPath="$PROJECT_DIR$/lesson5-11i09(Migrations-Errors)/errors/ErrorHandler.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson5-11i09(Migrations-Errors)/middlewares/car.middleware.js" beforeDir="false" afterPath="$PROJECT_DIR$/lesson5-11i09(Migrations-Errors)/middlewares/car.middleware.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson5-11i09(Migrations-Errors)/middlewares/user.middleware.js" beforeDir="false" afterPath="$PROJECT_DIR$/lesson5-11i09(Migrations-Errors)/middlewares/user.middleware.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson5-11i09(Migrations-Errors)/services/car.service.js" beforeDir="false" afterPath="$PROJECT_DIR$/lesson5-11i09(Migrations-Errors)/services/car.service.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson5-11i09(Migrations-Errors)/services/user.service.js" beforeDir="false" afterPath="$PROJECT_DIR$/lesson5-11i09(Migrations-Errors)/services/user.service.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,26 +74,26 @@
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="GitIgnore" />
     <property name="javascript.nodejs.core.library.configured.version" value="12.16.3" />
     <property name="js.last.introduce.type" value="CONST" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/lesson6-19i09(Joi-Bcrypt)/dataBase" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/lesson7-19i09(JWT-GitFlow)" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="settings.nodejs" />
     <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\WebStorm 2020.1\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="V:\NodeProjects\NodeLessons\lesson7-19i09(JWT-GitFlow)" />
+      <recent name="V:\NodeProjects\NodeLessons\lesson6-19i09(Joi-Bcrypt)\dataBase" />
+      <recent name="V:\NodeProjects\NodeLessons\lesson6-19i09(Joi-Bcrypt)\dataBase\migrations-module" />
+      <recent name="V:\NodeProjects\NodeLessons\lesson6-19i09(Joi-Bcrypt)" />
+      <recent name="V:\NodeProjects\NodeLessons\lesson5-11i09(Migrations-Errors)\services" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="V:\NodeProjects\NodeLessons\lesson6-19i09(Joi-Bcrypt)\dataBase\migrations-module" />
       <recent name="V:\NodeProjects\NodeLessons\lesson6-19i09(Joi-Bcrypt)\dataBase\migrations" />
       <recent name="V:\NodeProjects\NodeLessons\lesson5-11i09(Migrations-Errors)\dataBase" />
       <recent name="V:\NodeProjects\NodeLessons\HW3_Cars1\db" />
       <recent name="V:\NodeProjects\NodeLessons\HW_RegistrationForm" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="V:\NodeProjects\NodeLessons\lesson6-19i09(Joi-Bcrypt)\dataBase" />
-      <recent name="V:\NodeProjects\NodeLessons\lesson6-19i09(Joi-Bcrypt)\dataBase\migrations-module" />
-      <recent name="V:\NodeProjects\NodeLessons\lesson6-19i09(Joi-Bcrypt)" />
-      <recent name="V:\NodeProjects\NodeLessons\lesson5-11i09(Migrations-Errors)\services" />
-      <recent name="V:\NodeProjects\NodeLessons\lesson5-11i09(Migrations-Errors)\controllers" />
     </key>
   </component>
   <component name="RunManager">
@@ -135,7 +121,7 @@
       <workItem from="1600498015556" duration="18807000" />
       <workItem from="1600542893638" duration="1650000" />
       <workItem from="1600586617418" duration="8953000" />
-      <workItem from="1600622968226" duration="11316000" />
+      <workItem from="1600622968226" duration="14010000" />
     </task>
     <task id="LOCAL-00001" summary="-- Debugging of RecursiveCopier">
       <created>1598407298008</created>
@@ -228,7 +214,14 @@
       <option name="project" value="LOCAL" />
       <updated>1600186825760</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="-- lesson 6: Done">
+      <created>1600642501277</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1600642501277</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -246,7 +239,8 @@
     <MESSAGE value="-- lesson 5 start" />
     <MESSAGE value="-- lesson 5: add first migration" />
     <MESSAGE value="-- lesson 5: thinking about join tables" />
-    <option name="LAST_COMMIT_MESSAGE" value="-- lesson 5: thinking about join tables" />
+    <MESSAGE value="-- lesson 6: Done" />
+    <option name="LAST_COMMIT_MESSAGE" value="-- lesson 6: Done" />
   </component>
   <component name="WindowStateProjectService">
     <state x="0" y="45" key="#Inspections" timestamp="1598856086541">
@@ -275,11 +269,11 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="413" y="114" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728@0.0.1366.728" timestamp="1598295491612" />
-    <state x="308" y="44" key="CommitChangelistDialog2" timestamp="1600186824962">
+    <state x="308" y="44" key="CommitChangelistDialog2" timestamp="1600642500164">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="308" y="44" key="CommitChangelistDialog2/0.0.1366.728/-1920.-77.1920.1040@0.0.1366.728" timestamp="1600186824962" />
-    <state x="308" y="44" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1599065467238" />
+    <state x="308" y="44" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1600642500164" />
     <state width="254" height="195" key="DatabaseViewActions_Filter" timestamp="1598893811133">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
