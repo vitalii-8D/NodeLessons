@@ -1,4 +1,6 @@
 'use strict';
+const {USERS} = require('../../configs/db-tables.enum')
+
 const {
     Model
 } = require('sequelize');
@@ -10,7 +12,8 @@ module.exports = (sequelize, DataTypes) => {
          * The `models/index` file will call this method automatically.
          */
         static associate(models) {
-            User.hasMany(models.Car, {onDelete: null, foreignKey: 'userId', as: 'cars'})
+            User.hasMany(models.Car, {onDelete: null, foreignKey: 'userId', as: 'cars'});
+            User.hasOne(models.OAuth, {onDelete: 'ONCASCADE', foreignKey: 'user_id'/*, as: 'tokens'*/});
         }
     };
     User.init({
@@ -39,7 +42,7 @@ module.exports = (sequelize, DataTypes) => {
     }, {
         sequelize,
         modelName: 'User',
-        tableName: 'users',
+        tableName: USERS,
         timestamps: false
     });
     return User;

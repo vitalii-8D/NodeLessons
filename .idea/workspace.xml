@@ -2,17 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="69737fd3-7f85-4d2a-9a19-fb3599e77b90" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/lesson7-19i09(JWT-GitFlow)/helpers/tokenizer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson7-19i09(JWT-GitFlow)/middlewares/token.middleware.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson7-19i09(JWT-GitFlow)/configs/config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson7-19i09(JWT-GitFlow)/configs/constants.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson7-19i09(JWT-GitFlow)/configs/db-tables.enum.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson7-19i09(JWT-GitFlow)/services/oAuth.service.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson7-19i09(JWT-GitFlow)/configs/sequelize.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/lesson7-19i09(JWT-GitFlow)/configs/sequelize.config.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lesson7-19i09(JWT-GitFlow)/controllers/auth.controller.js" beforeDir="false" afterPath="$PROJECT_DIR$/lesson7-19i09(JWT-GitFlow)/controllers/auth.controller.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson7-19i09(JWT-GitFlow)/helpers/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/lesson7-19i09(JWT-GitFlow)/helpers/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson7-19i09(JWT-GitFlow)/middlewares/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/lesson7-19i09(JWT-GitFlow)/middlewares/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson7-19i09(JWT-GitFlow)/controllers/car.controller.js" beforeDir="false" afterPath="$PROJECT_DIR$/lesson7-19i09(JWT-GitFlow)/controllers/car.controller.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson7-19i09(JWT-GitFlow)/dataBase/models/Car.js" beforeDir="false" afterPath="$PROJECT_DIR$/lesson7-19i09(JWT-GitFlow)/dataBase/models/Car.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson7-19i09(JWT-GitFlow)/dataBase/models/User.js" beforeDir="false" afterPath="$PROJECT_DIR$/lesson7-19i09(JWT-GitFlow)/dataBase/models/User.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson7-19i09(JWT-GitFlow)/helpers/tokenizer.js" beforeDir="false" afterPath="$PROJECT_DIR$/lesson7-19i09(JWT-GitFlow)/helpers/tokenizer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson7-19i09(JWT-GitFlow)/middlewares/token.middleware.js" beforeDir="false" afterPath="$PROJECT_DIR$/lesson7-19i09(JWT-GitFlow)/middlewares/token.middleware.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lesson7-19i09(JWT-GitFlow)/middlewares/user.middleware.js" beforeDir="false" afterPath="$PROJECT_DIR$/lesson7-19i09(JWT-GitFlow)/middlewares/user.middleware.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lesson7-19i09(JWT-GitFlow)/routers/auth.router.js" beforeDir="false" afterPath="$PROJECT_DIR$/lesson7-19i09(JWT-GitFlow)/routers/auth.router.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson7-19i09(JWT-GitFlow)/routers/car.router.js" beforeDir="false" afterPath="$PROJECT_DIR$/lesson7-19i09(JWT-GitFlow)/routers/car.router.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson7-19i09(JWT-GitFlow)/routers/user.router.js" beforeDir="false" afterPath="$PROJECT_DIR$/lesson7-19i09(JWT-GitFlow)/routers/user.router.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson7-19i09(JWT-GitFlow)/services/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/lesson7-19i09(JWT-GitFlow)/services/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -96,6 +101,9 @@
       <workItem from="1600542893638" duration="1650000" />
       <workItem from="1600586617418" duration="8953000" />
       <workItem from="1600622968226" duration="21897000" />
+      <workItem from="1600702903027" duration="1774000" />
+      <workItem from="1600758399332" duration="17869000" />
+      <workItem from="1600900106633" duration="8369000" />
     </task>
     <task id="LOCAL-00001" summary="-- Debugging of RecursiveCopier">
       <created>1598407298008</created>
@@ -229,6 +237,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="0" y="45" key="#Inspections/0.0.1366.728@0.0.1366.728" timestamp="1598856086541" />
+    <state x="252" y="72" width="805" height="583" key="#JavaScript" timestamp="1600785360065">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="252" y="72" width="805" height="583" key="#JavaScript/0.0.1366.728@0.0.1366.728" timestamp="1600785360065" />
     <state x="365" y="137" width="433" height="364" key="#Notifications" timestamp="1598894944525">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -237,11 +249,11 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="57" y="205" key="#SQL_Dialects/0.0.1366.728@0.0.1366.728" timestamp="1598973677503" />
-    <state x="219" y="76" width="915" height="556" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1600627379491">
+    <state x="219" y="76" width="915" height="556" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1600768624935">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="219" y="37" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728/-1920.-77.1920.1040@0.0.1366.728" timestamp="1600157715894" />
-    <state x="219" y="76" width="915" height="556" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1600627379491" />
+    <state x="219" y="76" width="915" height="556" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1600768624935" />
     <state x="439" y="165" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1600153018705">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -352,20 +364,24 @@
     </state>
     <state x="582" y="240" key="com.intellij.database.actions.DdlActions$CreateObject$1/0.0.1366.728/-1920.-77.1920.1040@0.0.1366.728" timestamp="1599805471664" />
     <state x="582" y="240" key="com.intellij.database.actions.DdlActions$CreateObject$1/0.0.1366.728@0.0.1366.728" timestamp="1598968017564" />
-    <state x="577" y="251" width="316" height="245" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1" timestamp="1600533767808">
+    <state x="577" y="251" width="316" height="245" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1" timestamp="1600771088217">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="577" y="251" width="316" height="245" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1/0.0.1366.728/-1920.-77.1920.1040@0.0.1366.728" timestamp="1600177732126" />
-    <state x="577" y="251" width="316" height="245" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1/0.0.1366.728@0.0.1366.728" timestamp="1600533767808" />
+    <state x="577" y="251" width="316" height="245" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1/0.0.1366.728@0.0.1366.728" timestamp="1600771088217" />
+    <state x="413" y="168" key="com.intellij.database.dbimport.ImportUtil.ChooseTargetDialog" timestamp="1600790067324">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="413" y="168" key="com.intellij.database.dbimport.ImportUtil.ChooseTargetDialog/0.0.1366.728@0.0.1366.728" timestamp="1600790067324" />
     <state x="479" y="184" width="408" height="356" key="com.intellij.database.psi.DbRenamePsiElementProcessor.DbRenameDialog" timestamp="1600184910634">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="479" y="184" width="408" height="356" key="com.intellij.database.psi.DbRenamePsiElementProcessor.DbRenameDialog/0.0.1366.728/-1920.-77.1920.1040@0.0.1366.728" timestamp="1600184910634" />
-    <state x="345" y="48" width="619" height="518" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog" timestamp="1600533476077">
+    <state x="392" y="82" width="619" height="518" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog" timestamp="1600903849788">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="345" y="48" width="748" height="603" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog/0.0.1366.728/-1920.-77.1920.1040@0.0.1366.728" timestamp="1600184923274" />
-    <state x="345" y="48" width="619" height="518" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog/0.0.1366.728@0.0.1366.728" timestamp="1600533476077" />
+    <state x="392" y="82" width="619" height="518" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog/0.0.1366.728@0.0.1366.728" timestamp="1600903849788" />
     <state x="288" y="0" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1598404593982">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -378,10 +394,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="0" y="0" width="1075" height="539" key="dock-window-1/0.0.1366.728@0.0.1366.728" timestamp="1598440703369" />
-    <state x="389" y="0" width="587" height="728" key="find.popup" timestamp="1598284366015">
+    <state x="389" y="0" width="587" height="728" key="find.popup" timestamp="1600779285125">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="389" y="0" width="587" height="728" key="find.popup/0.0.1366.728@0.0.1366.728" timestamp="1598284366015" />
+    <state x="389" y="0" width="587" height="728" key="find.popup/0.0.1366.728@0.0.1366.728" timestamp="1600779285125" />
     <state x="484" y="273" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1598407333021">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

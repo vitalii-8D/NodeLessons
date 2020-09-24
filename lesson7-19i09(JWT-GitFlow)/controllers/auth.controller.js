@@ -1,6 +1,8 @@
-const {userService} = require('../services');
-const {statusCodes, errors, ErrorHandler} = require('../errors');
-const {comparePass, tokenizer} = require('../helpers');
+const { userService, oAuthService } = require('../services');
+const { statusCodes, errors, ErrorHandler } = require('../errors');
+const { comparePass, tokenizer } = require('../helpers');
+const {AUTHORIZATION} = require('../configs/constants')
+const {ACCESS_TOKEN_SECRET, REFRESH_TOKEN_SECRET} = require('../configs/config')
 
 module.exports = {
     login: async (req, res, next) => {
@@ -12,6 +14,11 @@ module.exports = {
 
             const tokens = tokenizer();
 
+            await oAuthService.create({
+                ...tokens,
+                user_id: user.id
+            })
+
             res.json(tokens);
         } catch (e) {
             next(e);
@@ -22,14 +29,20 @@ module.exports = {
             ))*/
         }
     },
-    refreshToken: async (req,res,next) => {
+    refreshToken: async (req, res, next) => {
         try {
-            const token = req.get('Authorization');
+            const token = req.get(AUTHORIZATION);
+
             // TODO remove old tokens from DB
+            const oldToken = await oAuthService.deleteByParams({ refresh_token: token })
 
             const newTokensPair = tokenizer();
 
-            // TODO insert new tokens in DB
+            // TO+DO insert new tokens in DB
+            oAuthService.create({
+                ...newTokensPair,
+                user_id: oldToken.user_id
+            })
 
             res.json(newTokensPair)
         } catch (e) {

@@ -1,4 +1,6 @@
 'use strict';
+const {CARS} = require('../../configs/db-tables.enum')
+
 const {
     Model
 } = require('sequelize');
@@ -35,7 +37,7 @@ module.exports = (sequelize, DataTypes) => {
     }, {
         sequelize,
         modelName: 'Car',
-        tableName: 'cars',
+        tableName: CARS,
         timestamps: false
     });
     return Car;

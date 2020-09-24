@@ -11,6 +11,7 @@ module.exports = {
     },
     addCar: async (req, res) => {
         try {
+            console.log(req.token);
             const newCarsArr = await carService.pushCar(req.body);
             res.json(newCarsArr);
         } catch (e) {

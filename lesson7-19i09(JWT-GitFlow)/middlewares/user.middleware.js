@@ -50,11 +50,8 @@ module.exports = {
     isUsernameUsed: async (req, res, next) => {
         try {
             const {username} = req.body;
-            console.log('username*************************');
-            console.log(username);
+
             const user = await userService.findByParams({username});
-            console.log('user****************************');
-            console.log(user);
 
             if (user) {
                 return next(new ErrorHandler(
