@@ -20,10 +20,58 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="69737fd3-7f85-4d2a-9a19-fb3599e77b90" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson8-21i09(Mailer)/email-templates/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/lesson8-21i09(Mailer)/email-templates/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson8-21i09(Mailer)/email-templates/template.pug" beforeDir="false" afterPath="$PROJECT_DIR$/lesson8-21i09(Mailer)/email-templates/template.pug" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson8-21i09(Mailer)/services/email.service.js" beforeDir="false" afterPath="$PROJECT_DIR$/lesson8-21i09(Mailer)/services/email.service.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson9-21i09(File-loader)/.env" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson9-21i09(File-loader)/.sequelizerc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson9-21i09(File-loader)/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson9-21i09(File-loader)/configs/config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson9-21i09(File-loader)/configs/constants.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson9-21i09(File-loader)/configs/db-tables.enum.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson9-21i09(File-loader)/configs/email-action.enum.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson9-21i09(File-loader)/configs/regex.enum.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson9-21i09(File-loader)/configs/sequelize.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson9-21i09(File-loader)/controllers/auth.controller.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson9-21i09(File-loader)/controllers/car.controller.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson9-21i09(File-loader)/controllers/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson9-21i09(File-loader)/controllers/user.controller.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson9-21i09(File-loader)/dataBase/migrations/20200919085441-create-users-table.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson9-21i09(File-loader)/dataBase/migrations/20200919085446-create-cars-table.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson9-21i09(File-loader)/dataBase/migrations/20200922094931-o_auth.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson9-21i09(File-loader)/dataBase/models/Car.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson9-21i09(File-loader)/dataBase/models/OAuth.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson9-21i09(File-loader)/dataBase/models/User.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson9-21i09(File-loader)/dataBase/models/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson9-21i09(File-loader)/dataBase/seeders/20200919090828-insert-cars.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson9-21i09(File-loader)/dataBase/seeders/20200919090837-insert-users.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson9-21i09(File-loader)/email-templates/forgot-pass.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson9-21i09(File-loader)/email-templates/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson9-21i09(File-loader)/email-templates/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson9-21i09(File-loader)/email-templates/template.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson9-21i09(File-loader)/email-templates/welcome.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson9-21i09(File-loader)/errors/ErrorHandler.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson9-21i09(File-loader)/errors/errors.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson9-21i09(File-loader)/errors/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson9-21i09(File-loader)/errors/statusCodes.enum.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson9-21i09(File-loader)/helpers/hash-password.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson9-21i09(File-loader)/helpers/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson9-21i09(File-loader)/helpers/password-comparator.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson9-21i09(File-loader)/helpers/tokenizer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson9-21i09(File-loader)/middlewares/car.middleware.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson9-21i09(File-loader)/middlewares/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson9-21i09(File-loader)/middlewares/token.middleware.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson9-21i09(File-loader)/middlewares/user.middleware.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson9-21i09(File-loader)/routers/api.router.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson9-21i09(File-loader)/routers/auth.router.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson9-21i09(File-loader)/routers/car.router.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson9-21i09(File-loader)/routers/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson9-21i09(File-loader)/routers/user.router.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson9-21i09(File-loader)/services/car.service.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson9-21i09(File-loader)/services/email.service.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson9-21i09(File-loader)/services/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson9-21i09(File-loader)/services/oAuth.service.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson9-21i09(File-loader)/services/user.service.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson9-21i09(File-loader)/validators/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson9-21i09(File-loader)/validators/user/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson9-21i09(File-loader)/validators/user/new-user.validator.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,7 +107,7 @@
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="GitIgnore" />
     <property name="javascript.nodejs.core.library.configured.version" value="12.16.3" />
     <property name="js.last.introduce.type" value="CONST" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/lesson8-21i09(Mailer)" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/lesson9-21i09(File-loader)" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
@@ -112,6 +160,7 @@
       <workItem from="1600900106633" duration="8369000" />
       <workItem from="1601024949470" duration="10906000" />
       <workItem from="1601113788956" duration="25866000" />
+      <workItem from="1601230949546" duration="665000" />
     </task>
     <task id="LOCAL-00001" summary="-- Debugging of RecursiveCopier">
       <created>1598407298008</created>
