@@ -20,21 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="69737fd3-7f85-4d2a-9a19-fb3599e77b90" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/lesson7-19i09(JWT-GitFlow)/.env" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson8-21i09(Mailer)/configs/email-action.enum.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson8-21i09(Mailer)/email-templates/forgot-pass.pug" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson8-21i09(Mailer)/email-templates/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson8-21i09(Mailer)/email-templates/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson8-21i09(Mailer)/email-templates/template.pug" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson8-21i09(Mailer)/email-templates/welcome.pug" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson8-21i09(Mailer)/services/email.service.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson7-19i09(JWT-GitFlow)/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/lesson7-19i09(JWT-GitFlow)/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson7-19i09(JWT-GitFlow)/configs/config.js" beforeDir="false" afterPath="$PROJECT_DIR$/lesson7-19i09(JWT-GitFlow)/configs/config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson7-19i09(JWT-GitFlow)/dataBase/models/User.js" beforeDir="false" afterPath="$PROJECT_DIR$/lesson7-19i09(JWT-GitFlow)/dataBase/models/User.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson7-19i09(JWT-GitFlow)/helpers/tokenizer.js" beforeDir="false" afterPath="$PROJECT_DIR$/lesson7-19i09(JWT-GitFlow)/helpers/tokenizer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson7-19i09(JWT-GitFlow)/services/oAuth.service.js" beforeDir="false" afterPath="$PROJECT_DIR$/lesson7-19i09(JWT-GitFlow)/services/oAuth.service.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -122,7 +108,7 @@
       <workItem from="1600758399332" duration="17869000" />
       <workItem from="1600900106633" duration="8369000" />
       <workItem from="1601024949470" duration="10906000" />
-      <workItem from="1601113788956" duration="5938000" />
+      <workItem from="1601113788956" duration="8866000" />
     </task>
     <task id="LOCAL-00001" summary="-- Debugging of RecursiveCopier">
       <created>1598407298008</created>
@@ -229,7 +215,14 @@
       <option name="project" value="LOCAL" />
       <updated>1600654150472</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="-- lesson 8: Start">
+      <created>1601200731380</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1601200731381</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -261,7 +254,8 @@
     <MESSAGE value="-- lesson 5: thinking about join tables" />
     <MESSAGE value="-- lesson 6: Done" />
     <MESSAGE value="-- lesson 7: Begining" />
-    <option name="LAST_COMMIT_MESSAGE" value="-- lesson 7: Begining" />
+    <MESSAGE value="-- lesson 8: Start" />
+    <option name="LAST_COMMIT_MESSAGE" value="-- lesson 8: Start" />
   </component>
   <component name="WindowStateProjectService">
     <state x="0" y="45" key="#Inspections" timestamp="1601025237443">
@@ -294,11 +288,11 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="413" y="114" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728@0.0.1366.728" timestamp="1598295491612" />
-    <state x="308" y="44" key="CommitChangelistDialog2" timestamp="1600654149718">
+    <state x="308" y="44" key="CommitChangelistDialog2" timestamp="1601200730378">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="308" y="44" key="CommitChangelistDialog2/0.0.1366.728/-1920.-77.1920.1040@0.0.1366.728" timestamp="1600186824962" />
-    <state x="308" y="44" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1600654149718" />
+    <state x="308" y="44" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1601200730378" />
     <state width="254" height="195" key="DatabaseViewActions_Filter" timestamp="1598893811133">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -385,21 +379,21 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="170" y="10" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1601044945713" />
-    <state x="275" y="100" key="Vcs.Push.Dialog.v2" timestamp="1600654157124">
+    <state x="275" y="100" key="Vcs.Push.Dialog.v2" timestamp="1601200763228">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="275" y="100" key="Vcs.Push.Dialog.v2/0.0.1366.728/-1920.-77.1920.1040@0.0.1366.728" timestamp="1600186829036" />
-    <state x="275" y="100" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1600654157124" />
+    <state x="275" y="100" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1601200763228" />
     <state x="582" y="240" key="com.intellij.database.actions.DdlActions$CreateObject$1" timestamp="1599805471664">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="582" y="240" key="com.intellij.database.actions.DdlActions$CreateObject$1/0.0.1366.728/-1920.-77.1920.1040@0.0.1366.728" timestamp="1599805471664" />
     <state x="582" y="240" key="com.intellij.database.actions.DdlActions$CreateObject$1/0.0.1366.728@0.0.1366.728" timestamp="1598968017564" />
-    <state x="577" y="251" width="316" height="245" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1" timestamp="1601046744248">
+    <state x="577" y="251" width="316" height="245" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1" timestamp="1601201768512">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="577" y="251" width="316" height="245" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1/0.0.1366.728/-1920.-77.1920.1040@0.0.1366.728" timestamp="1600177732126" />
-    <state x="577" y="251" width="316" height="245" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1/0.0.1366.728@0.0.1366.728" timestamp="1601046744247" />
+    <state x="577" y="251" width="316" height="245" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1/0.0.1366.728@0.0.1366.728" timestamp="1601201768512" />
     <state x="413" y="168" key="com.intellij.database.dbimport.ImportUtil.ChooseTargetDialog" timestamp="1600790067324">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -425,10 +419,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="0" y="0" width="1075" height="539" key="dock-window-1/0.0.1366.728@0.0.1366.728" timestamp="1598440703369" />
-    <state x="389" y="0" width="587" height="728" key="find.popup" timestamp="1600779285125">
+    <state x="389" y="0" width="587" height="728" key="find.popup" timestamp="1601202146615">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="389" y="0" width="587" height="728" key="find.popup/0.0.1366.728@0.0.1366.728" timestamp="1600779285125" />
+    <state x="389" y="0" width="587" height="728" key="find.popup/0.0.1366.728@0.0.1366.728" timestamp="1601202146615" />
     <state x="484" y="273" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1598407333021">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

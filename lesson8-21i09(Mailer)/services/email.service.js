@@ -21,10 +21,10 @@ const transport = mailer.createTransport({
 })
 
 class EmailService {
-    async sendMail(userMail, action) {
+    async sendMail(userMail, action, context) {
         try {
             const templateInfo = htmlTemplates[action];
-            const html = await emailTemplates.render(templateInfo.templateFileName)
+            const html = await emailTemplates.render(templateInfo.templateFileName, {...context})
 
             const mailOptions = {
                 from: 'NO REPLY CAR SHOP',
