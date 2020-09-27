@@ -5,6 +5,9 @@ module.exports = {
     getByParams: async (params) => {
         return OAuth.findOne({
             where: params,
+            // Allowes to hide all system informations
+            raw: true,
+            nest: true,
             include: [User]
             /*include: [ {
                 model: User,

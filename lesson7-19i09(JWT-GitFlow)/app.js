@@ -1,10 +1,13 @@
 const express = require('express');
 const {sequelize} = require('./dataBase/models');
 const apiRouter = require('./routers/api.router');
+const dotenv = require('dotenv');
 
 const app = express();
 app.use(express.urlencoded({extended: true}));
 app.use(express.json());
+
+dotenv.config();
 
 app.use('/api', apiRouter);
 
