@@ -26,7 +26,7 @@ class EmailService {
             const templateInfo = htmlTemplates[action];
 
             const html = await emailTemplates.render(templateInfo.templateFilename, {...context, frontendUrl: FRONTEND_URL});
-
+ 
             const mailOptions = {
                 from: 'NO REPLY CAR SHOP',
                 to: userMail,
