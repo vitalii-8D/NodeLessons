@@ -21,6 +21,9 @@
   <component name="ChangeListManager">
     <list default="true" id="69737fd3-7f85-4d2a-9a19-fb3599e77b90" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson8-21i09(Mailer)/email-templates/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/lesson8-21i09(Mailer)/email-templates/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson8-21i09(Mailer)/email-templates/template.pug" beforeDir="false" afterPath="$PROJECT_DIR$/lesson8-21i09(Mailer)/email-templates/template.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson8-21i09(Mailer)/services/email.service.js" beforeDir="false" afterPath="$PROJECT_DIR$/lesson8-21i09(Mailer)/services/email.service.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -108,7 +111,7 @@
       <workItem from="1600758399332" duration="17869000" />
       <workItem from="1600900106633" duration="8369000" />
       <workItem from="1601024949470" duration="10906000" />
-      <workItem from="1601113788956" duration="8866000" />
+      <workItem from="1601113788956" duration="25866000" />
     </task>
     <task id="LOCAL-00001" summary="-- Debugging of RecursiveCopier">
       <created>1598407298008</created>
@@ -222,7 +225,14 @@
       <option name="project" value="LOCAL" />
       <updated>1601200731381</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="-- lesson 8: Start">
+      <created>1601204132955</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1601204132955</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -288,11 +298,11 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="413" y="114" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728@0.0.1366.728" timestamp="1598295491612" />
-    <state x="308" y="44" key="CommitChangelistDialog2" timestamp="1601200730378">
+    <state x="308" y="44" key="CommitChangelistDialog2" timestamp="1601204132192">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="308" y="44" key="CommitChangelistDialog2/0.0.1366.728/-1920.-77.1920.1040@0.0.1366.728" timestamp="1600186824962" />
-    <state x="308" y="44" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1601200730378" />
+    <state x="308" y="44" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1601204132192" />
     <state width="254" height="195" key="DatabaseViewActions_Filter" timestamp="1598893811133">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -379,21 +389,21 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="170" y="10" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1601044945713" />
-    <state x="275" y="100" key="Vcs.Push.Dialog.v2" timestamp="1601200763228">
+    <state x="275" y="100" key="Vcs.Push.Dialog.v2" timestamp="1601204139410">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="275" y="100" key="Vcs.Push.Dialog.v2/0.0.1366.728/-1920.-77.1920.1040@0.0.1366.728" timestamp="1600186829036" />
-    <state x="275" y="100" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1601200763228" />
+    <state x="275" y="100" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1601204139410" />
     <state x="582" y="240" key="com.intellij.database.actions.DdlActions$CreateObject$1" timestamp="1599805471664">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="582" y="240" key="com.intellij.database.actions.DdlActions$CreateObject$1/0.0.1366.728/-1920.-77.1920.1040@0.0.1366.728" timestamp="1599805471664" />
     <state x="582" y="240" key="com.intellij.database.actions.DdlActions$CreateObject$1/0.0.1366.728@0.0.1366.728" timestamp="1598968017564" />
-    <state x="577" y="251" width="316" height="245" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1" timestamp="1601201768512">
+    <state x="577" y="251" width="316" height="245" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1" timestamp="1601209057018">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="577" y="251" width="316" height="245" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1/0.0.1366.728/-1920.-77.1920.1040@0.0.1366.728" timestamp="1600177732126" />
-    <state x="577" y="251" width="316" height="245" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1/0.0.1366.728@0.0.1366.728" timestamp="1601201768512" />
+    <state x="577" y="251" width="316" height="245" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1/0.0.1366.728@0.0.1366.728" timestamp="1601209057018" />
     <state x="413" y="168" key="com.intellij.database.dbimport.ImportUtil.ChooseTargetDialog" timestamp="1600790067324">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -402,11 +412,11 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="479" y="184" width="408" height="356" key="com.intellij.database.psi.DbRenamePsiElementProcessor.DbRenameDialog/0.0.1366.728/-1920.-77.1920.1040@0.0.1366.728" timestamp="1600184910634" />
-    <state x="392" y="82" width="619" height="518" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog" timestamp="1600903849788">
+    <state x="326" y="41" width="619" height="518" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog" timestamp="1601208357892">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="345" y="48" width="748" height="603" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog/0.0.1366.728/-1920.-77.1920.1040@0.0.1366.728" timestamp="1600184923274" />
-    <state x="392" y="82" width="619" height="518" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog/0.0.1366.728@0.0.1366.728" timestamp="1600903849788" />
+    <state x="326" y="41" width="619" height="518" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog/0.0.1366.728@0.0.1366.728" timestamp="1601208357892" />
     <state x="288" y="0" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1598404593982">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
