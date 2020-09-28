@@ -20,58 +20,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="69737fd3-7f85-4d2a-9a19-fb3599e77b90" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/lesson9-21i09(File-loader)/.env" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson9-21i09(File-loader)/.sequelizerc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson9-21i09(File-loader)/app.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson9-21i09(File-loader)/configs/config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson9-21i09(File-loader)/configs/constants.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson9-21i09(File-loader)/configs/db-tables.enum.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson9-21i09(File-loader)/configs/email-action.enum.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson9-21i09(File-loader)/configs/regex.enum.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson9-21i09(File-loader)/configs/sequelize.config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson9-21i09(File-loader)/controllers/auth.controller.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson9-21i09(File-loader)/controllers/car.controller.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson9-21i09(File-loader)/controllers/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson9-21i09(File-loader)/controllers/user.controller.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson9-21i09(File-loader)/dataBase/migrations/20200919085441-create-users-table.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson9-21i09(File-loader)/dataBase/migrations/20200919085446-create-cars-table.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson9-21i09(File-loader)/dataBase/migrations/20200922094931-o_auth.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson9-21i09(File-loader)/dataBase/models/Car.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson9-21i09(File-loader)/dataBase/models/OAuth.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson9-21i09(File-loader)/dataBase/models/User.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson9-21i09(File-loader)/dataBase/models/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson9-21i09(File-loader)/dataBase/seeders/20200919090828-insert-cars.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson9-21i09(File-loader)/dataBase/seeders/20200919090837-insert-users.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson9-21i09(File-loader)/email-templates/forgot-pass.pug" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson9-21i09(File-loader)/email-templates/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson9-21i09(File-loader)/email-templates/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson9-21i09(File-loader)/email-templates/template.pug" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson9-21i09(File-loader)/email-templates/welcome.pug" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson9-21i09(File-loader)/errors/ErrorHandler.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson9-21i09(File-loader)/errors/errors.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson9-21i09(File-loader)/errors/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson9-21i09(File-loader)/errors/statusCodes.enum.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson9-21i09(File-loader)/helpers/hash-password.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson9-21i09(File-loader)/helpers/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson9-21i09(File-loader)/helpers/password-comparator.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson9-21i09(File-loader)/helpers/tokenizer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson9-21i09(File-loader)/middlewares/car.middleware.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson9-21i09(File-loader)/middlewares/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson9-21i09(File-loader)/middlewares/token.middleware.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson9-21i09(File-loader)/middlewares/user.middleware.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson9-21i09(File-loader)/routers/api.router.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson9-21i09(File-loader)/routers/auth.router.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson9-21i09(File-loader)/routers/car.router.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson9-21i09(File-loader)/routers/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson9-21i09(File-loader)/routers/user.router.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson9-21i09(File-loader)/services/car.service.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson9-21i09(File-loader)/services/email.service.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson9-21i09(File-loader)/services/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson9-21i09(File-loader)/services/oAuth.service.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson9-21i09(File-loader)/services/user.service.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson9-21i09(File-loader)/validators/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson9-21i09(File-loader)/validators/user/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson9-21i09(File-loader)/validators/user/new-user.validator.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson9-21i09(File-loader)/middlewares/files.middleware.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson9-21i09(File-loader)/configs/constants.js" beforeDir="false" afterPath="$PROJECT_DIR$/lesson9-21i09(File-loader)/configs/constants.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson9-21i09(File-loader)/middlewares/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/lesson9-21i09(File-loader)/middlewares/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -114,19 +67,19 @@
     <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\WebStorm 2020.1\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="V:\NodeProjects\NodeLessons\lesson8-21i09(Mailer)" />
-      <recent name="V:\NodeProjects\NodeLessons\lesson7-19i09(JWT-GitFlow)" />
-      <recent name="V:\NodeProjects\NodeLessons\lesson6-19i09(Joi-Bcrypt)\dataBase" />
-      <recent name="V:\NodeProjects\NodeLessons\lesson6-19i09(Joi-Bcrypt)\dataBase\migrations-module" />
-      <recent name="V:\NodeProjects\NodeLessons\lesson6-19i09(Joi-Bcrypt)" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="V:\NodeProjects\NodeLessons\lesson6-19i09(Joi-Bcrypt)\dataBase\migrations-module" />
       <recent name="V:\NodeProjects\NodeLessons\lesson6-19i09(Joi-Bcrypt)\dataBase\migrations" />
       <recent name="V:\NodeProjects\NodeLessons\lesson5-11i09(Migrations-Errors)\dataBase" />
       <recent name="V:\NodeProjects\NodeLessons\HW3_Cars1\db" />
       <recent name="V:\NodeProjects\NodeLessons\HW_RegistrationForm" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="V:\NodeProjects\NodeLessons\lesson9-21i09(File-loader)" />
+      <recent name="V:\NodeProjects\NodeLessons\lesson8-21i09(Mailer)" />
+      <recent name="V:\NodeProjects\NodeLessons\lesson7-19i09(JWT-GitFlow)" />
+      <recent name="V:\NodeProjects\NodeLessons\lesson6-19i09(Joi-Bcrypt)\dataBase" />
+      <recent name="V:\NodeProjects\NodeLessons\lesson6-19i09(Joi-Bcrypt)\dataBase\migrations-module" />
     </key>
   </component>
   <component name="RunManager">
@@ -160,7 +113,8 @@
       <workItem from="1600900106633" duration="8369000" />
       <workItem from="1601024949470" duration="10906000" />
       <workItem from="1601113788956" duration="25866000" />
-      <workItem from="1601230949546" duration="665000" />
+      <workItem from="1601230949546" duration="6525000" />
+      <workItem from="1601324887500" duration="1810000" />
     </task>
     <task id="LOCAL-00001" summary="-- Debugging of RecursiveCopier">
       <created>1598407298008</created>
@@ -281,7 +235,14 @@
       <option name="project" value="LOCAL" />
       <updated>1601204132955</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="-- lesson 9: Begining">
+      <created>1601232378340</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1601232378340</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -314,7 +275,8 @@
     <MESSAGE value="-- lesson 6: Done" />
     <MESSAGE value="-- lesson 7: Begining" />
     <MESSAGE value="-- lesson 8: Start" />
-    <option name="LAST_COMMIT_MESSAGE" value="-- lesson 8: Start" />
+    <MESSAGE value="-- lesson 9: Begining" />
+    <option name="LAST_COMMIT_MESSAGE" value="-- lesson 9: Begining" />
   </component>
   <component name="WindowStateProjectService">
     <state x="0" y="45" key="#Inspections" timestamp="1601025237443">
@@ -347,11 +309,11 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="413" y="114" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728@0.0.1366.728" timestamp="1598295491612" />
-    <state x="308" y="44" key="CommitChangelistDialog2" timestamp="1601204132192">
+    <state x="308" y="44" key="CommitChangelistDialog2" timestamp="1601232377521">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="308" y="44" key="CommitChangelistDialog2/0.0.1366.728/-1920.-77.1920.1040@0.0.1366.728" timestamp="1600186824962" />
-    <state x="308" y="44" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1601204132192" />
+    <state x="308" y="44" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1601232377521" />
     <state width="254" height="195" key="DatabaseViewActions_Filter" timestamp="1598893811133">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -365,22 +327,22 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="553" y="265" key="Github.ShareDialog/0.0.1366.728@0.0.1366.728" timestamp="1598407369104" />
-    <state width="1323" height="167" key="GridCell.Tab.0.bottom" timestamp="1601048612664">
+    <state width="1323" height="167" key="GridCell.Tab.0.bottom" timestamp="1601233631274">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="167" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1601048612664" />
-    <state width="1323" height="167" key="GridCell.Tab.0.center" timestamp="1601048612664">
+    <state width="1323" height="167" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1601233631274" />
+    <state width="1323" height="167" key="GridCell.Tab.0.center" timestamp="1601233631274">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="167" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1601048612664" />
-    <state width="1323" height="167" key="GridCell.Tab.0.left" timestamp="1601048612664">
+    <state width="1323" height="167" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1601233631274" />
+    <state width="1323" height="167" key="GridCell.Tab.0.left" timestamp="1601233631273">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="167" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1601048612664" />
-    <state width="1323" height="167" key="GridCell.Tab.0.right" timestamp="1601048612664">
+    <state width="1323" height="167" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1601233631273" />
+    <state width="1323" height="167" key="GridCell.Tab.0.right" timestamp="1601233631274">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="167" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1601048612664" />
+    <state width="1323" height="167" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1601233631274" />
     <state width="1323" height="223" key="GridCell.Tab.1.bottom" timestamp="1599230515521">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
