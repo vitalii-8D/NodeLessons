@@ -20,15 +20,63 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="69737fd3-7f85-4d2a-9a19-fb3599e77b90" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Consultation25i09(Transactions)/.env" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Consultation25i09(Transactions)/.sequelizerc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Consultation25i09(Transactions)/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Consultation25i09(Transactions)/configs/config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Consultation25i09(Transactions)/configs/constants.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Consultation25i09(Transactions)/configs/db-tables.enum.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Consultation25i09(Transactions)/configs/email-action.enum.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Consultation25i09(Transactions)/configs/regex.enum.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Consultation25i09(Transactions)/configs/sequelize.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Consultation25i09(Transactions)/controllers/auth.controller.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Consultation25i09(Transactions)/controllers/car.controller.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Consultation25i09(Transactions)/controllers/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Consultation25i09(Transactions)/controllers/user.controller.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Consultation25i09(Transactions)/dataBase/create-transaction.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Consultation25i09(Transactions)/dataBase/migrations/20200919085441-create-users-table.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Consultation25i09(Transactions)/dataBase/migrations/20200919085446-create-cars-table.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Consultation25i09(Transactions)/dataBase/migrations/20200922094931-o_auth.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Consultation25i09(Transactions)/dataBase/models/Car.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Consultation25i09(Transactions)/dataBase/models/OAuth.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Consultation25i09(Transactions)/dataBase/models/User.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Consultation25i09(Transactions)/dataBase/models/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Consultation25i09(Transactions)/dataBase/seeders/20200919090828-insert-cars.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Consultation25i09(Transactions)/dataBase/seeders/20200919090837-insert-users.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Consultation25i09(Transactions)/email-templates/forgot-pass.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Consultation25i09(Transactions)/email-templates/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Consultation25i09(Transactions)/email-templates/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Consultation25i09(Transactions)/email-templates/template.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Consultation25i09(Transactions)/email-templates/welcome.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Consultation25i09(Transactions)/errors/ErrorHandler.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Consultation25i09(Transactions)/errors/errors.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Consultation25i09(Transactions)/errors/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Consultation25i09(Transactions)/errors/statusCodes.enum.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Consultation25i09(Transactions)/helpers/hash-password.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Consultation25i09(Transactions)/helpers/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Consultation25i09(Transactions)/helpers/password-comparator.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Consultation25i09(Transactions)/helpers/tokenizer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Consultation25i09(Transactions)/middlewares/car.middleware.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Consultation25i09(Transactions)/middlewares/files.middleware.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Consultation25i09(Transactions)/middlewares/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Consultation25i09(Transactions)/middlewares/token.middleware.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Consultation25i09(Transactions)/middlewares/user.middleware.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Consultation25i09(Transactions)/public/users/24/photos/31ee4c3b-7ec7-464e-8db2-dacca234dab7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Consultation25i09(Transactions)/public/users/25/photos/d2334ef2-4c4c-4b8e-a982-5858eec5ddc8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Consultation25i09(Transactions)/routers/api.router.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Consultation25i09(Transactions)/routers/auth.router.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Consultation25i09(Transactions)/routers/car.router.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Consultation25i09(Transactions)/routers/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Consultation25i09(Transactions)/routers/user.router.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Consultation25i09(Transactions)/services/car.service.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Consultation25i09(Transactions)/services/email.service.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Consultation25i09(Transactions)/services/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Consultation25i09(Transactions)/services/oAuth.service.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Consultation25i09(Transactions)/services/user.service.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Consultation25i09(Transactions)/validators/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Consultation25i09(Transactions)/validators/user/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Consultation25i09(Transactions)/validators/user/new-user.validator.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson9-21i09(File-loader)/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/lesson9-21i09(File-loader)/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson9-21i09(File-loader)/controllers/user.controller.js" beforeDir="false" afterPath="$PROJECT_DIR$/lesson9-21i09(File-loader)/controllers/user.controller.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson9-21i09(File-loader)/dataBase/migrations/20200919085441-create-users-table.js" beforeDir="false" afterPath="$PROJECT_DIR$/lesson9-21i09(File-loader)/dataBase/migrations/20200919085441-create-users-table.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson9-21i09(File-loader)/dataBase/models/User.js" beforeDir="false" afterPath="$PROJECT_DIR$/lesson9-21i09(File-loader)/dataBase/models/User.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson9-21i09(File-loader)/middlewares/files.middleware.js" beforeDir="false" afterPath="$PROJECT_DIR$/lesson9-21i09(File-loader)/middlewares/files.middleware.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson9-21i09(File-loader)/routers/user.router.js" beforeDir="false" afterPath="$PROJECT_DIR$/lesson9-21i09(File-loader)/routers/user.router.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson9-21i09(File-loader)/services/user.service.js" beforeDir="false" afterPath="$PROJECT_DIR$/lesson9-21i09(File-loader)/services/user.service.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,26 +112,26 @@
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="GitIgnore" />
     <property name="javascript.nodejs.core.library.configured.version" value="12.16.3" />
     <property name="js.last.introduce.type" value="CONST" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/lesson9-21i09(File-loader)" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Consultation25i09(Transactions)" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\WebStorm 2020.1\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="V:\NodeProjects\NodeLessons\Consultation25i09(Transactions)" />
+      <recent name="V:\NodeProjects\NodeLessons\lesson9-21i09(File-loader)" />
+      <recent name="V:\NodeProjects\NodeLessons\lesson8-21i09(Mailer)" />
+      <recent name="V:\NodeProjects\NodeLessons\lesson7-19i09(JWT-GitFlow)" />
+      <recent name="V:\NodeProjects\NodeLessons\lesson6-19i09(Joi-Bcrypt)\dataBase" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="V:\NodeProjects\NodeLessons\lesson6-19i09(Joi-Bcrypt)\dataBase\migrations-module" />
       <recent name="V:\NodeProjects\NodeLessons\lesson6-19i09(Joi-Bcrypt)\dataBase\migrations" />
       <recent name="V:\NodeProjects\NodeLessons\lesson5-11i09(Migrations-Errors)\dataBase" />
       <recent name="V:\NodeProjects\NodeLessons\HW3_Cars1\db" />
       <recent name="V:\NodeProjects\NodeLessons\HW_RegistrationForm" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="V:\NodeProjects\NodeLessons\lesson9-21i09(File-loader)" />
-      <recent name="V:\NodeProjects\NodeLessons\lesson8-21i09(Mailer)" />
-      <recent name="V:\NodeProjects\NodeLessons\lesson7-19i09(JWT-GitFlow)" />
-      <recent name="V:\NodeProjects\NodeLessons\lesson6-19i09(Joi-Bcrypt)\dataBase" />
-      <recent name="V:\NodeProjects\NodeLessons\lesson6-19i09(Joi-Bcrypt)\dataBase\migrations-module" />
     </key>
   </component>
   <component name="RunManager">
@@ -119,7 +167,7 @@
       <workItem from="1601113788956" duration="25866000" />
       <workItem from="1601230949546" duration="6525000" />
       <workItem from="1601324887500" duration="10491000" />
-      <workItem from="1601573150498" duration="10526000" />
+      <workItem from="1601573150498" duration="13948000" />
     </task>
     <task id="LOCAL-00001" summary="-- Debugging of RecursiveCopier">
       <created>1598407298008</created>
@@ -254,7 +302,14 @@
       <option name="project" value="LOCAL" />
       <updated>1601335939737</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="-- lesson 9: Ending of file-upload lesson">
+      <created>1601609934255</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1601609934255</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -289,7 +344,8 @@
     <MESSAGE value="-- lesson 8: Start" />
     <MESSAGE value="-- lesson 9: Begining" />
     <MESSAGE value="-- lesson 9: Made file-middleware" />
-    <option name="LAST_COMMIT_MESSAGE" value="-- lesson 9: Made file-middleware" />
+    <MESSAGE value="-- lesson 9: Ending of file-upload lesson" />
+    <option name="LAST_COMMIT_MESSAGE" value="-- lesson 9: Ending of file-upload lesson" />
   </component>
   <component name="WindowStateProjectService">
     <state x="0" y="45" key="#Inspections" timestamp="1601025237443">
@@ -322,11 +378,11 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="413" y="114" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728@0.0.1366.728" timestamp="1598295491612" />
-    <state x="308" y="44" key="CommitChangelistDialog2" timestamp="1601335938534">
+    <state x="308" y="44" key="CommitChangelistDialog2" timestamp="1601609933340">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="308" y="44" key="CommitChangelistDialog2/0.0.1366.728/-1920.-77.1920.1040@0.0.1366.728" timestamp="1600186824962" />
-    <state x="308" y="44" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1601335938534" />
+    <state x="308" y="44" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1601609933340" />
     <state width="254" height="195" key="DatabaseViewActions_Filter" timestamp="1598893811133">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -413,11 +469,11 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="170" y="10" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1601044945713" />
-    <state x="275" y="100" key="Vcs.Push.Dialog.v2" timestamp="1601204139410">
+    <state x="275" y="100" key="Vcs.Push.Dialog.v2" timestamp="1601609940440">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="275" y="100" key="Vcs.Push.Dialog.v2/0.0.1366.728/-1920.-77.1920.1040@0.0.1366.728" timestamp="1600186829036" />
-    <state x="275" y="100" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1601204139410" />
+    <state x="275" y="100" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1601609940440" />
     <state x="582" y="240" key="com.intellij.database.actions.DdlActions$CreateObject$1" timestamp="1599805471664">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
