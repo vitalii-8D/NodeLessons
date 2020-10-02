@@ -1,15 +1,18 @@
 const express = require('express');
 const {sequelize} = require('./dataBase/models');
+const fileUpload = require('express-fileupload');
 const apiRouter = require('./routers/api.router');
+const path = require('path');
 const dotenv = require('dotenv');
+
+dotenv.config();
 
 const app = express();
 app.use(express.urlencoded({extended: true}));
 app.use(express.json());
-
-dotenv.config();
-
+app.use(fileUpload({}));
 app.use('/api', apiRouter);
+app.use(express.static(path.join(process.cwd(), 'public')));
 
 app.use('*', async (err, req, res, next) => {
     await res.status(err.status || 404)

@@ -20,10 +20,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="69737fd3-7f85-4d2a-9a19-fb3599e77b90" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/lesson9-21i09(File-loader)/middlewares/files.middleware.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson9-21i09(File-loader)/configs/constants.js" beforeDir="false" afterPath="$PROJECT_DIR$/lesson9-21i09(File-loader)/configs/constants.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson9-21i09(File-loader)/middlewares/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/lesson9-21i09(File-loader)/middlewares/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson9-21i09(File-loader)/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/lesson9-21i09(File-loader)/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson9-21i09(File-loader)/controllers/user.controller.js" beforeDir="false" afterPath="$PROJECT_DIR$/lesson9-21i09(File-loader)/controllers/user.controller.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson9-21i09(File-loader)/dataBase/migrations/20200919085441-create-users-table.js" beforeDir="false" afterPath="$PROJECT_DIR$/lesson9-21i09(File-loader)/dataBase/migrations/20200919085441-create-users-table.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson9-21i09(File-loader)/dataBase/models/User.js" beforeDir="false" afterPath="$PROJECT_DIR$/lesson9-21i09(File-loader)/dataBase/models/User.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson9-21i09(File-loader)/middlewares/files.middleware.js" beforeDir="false" afterPath="$PROJECT_DIR$/lesson9-21i09(File-loader)/middlewares/files.middleware.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson9-21i09(File-loader)/routers/user.router.js" beforeDir="false" afterPath="$PROJECT_DIR$/lesson9-21i09(File-loader)/routers/user.router.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson9-21i09(File-loader)/services/user.service.js" beforeDir="false" afterPath="$PROJECT_DIR$/lesson9-21i09(File-loader)/services/user.service.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -114,7 +118,8 @@
       <workItem from="1601024949470" duration="10906000" />
       <workItem from="1601113788956" duration="25866000" />
       <workItem from="1601230949546" duration="6525000" />
-      <workItem from="1601324887500" duration="1810000" />
+      <workItem from="1601324887500" duration="10491000" />
+      <workItem from="1601573150498" duration="10526000" />
     </task>
     <task id="LOCAL-00001" summary="-- Debugging of RecursiveCopier">
       <created>1598407298008</created>
@@ -242,7 +247,14 @@
       <option name="project" value="LOCAL" />
       <updated>1601232378340</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="-- lesson 9: Made file-middleware">
+      <created>1601335939737</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1601335939737</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -276,7 +288,8 @@
     <MESSAGE value="-- lesson 7: Begining" />
     <MESSAGE value="-- lesson 8: Start" />
     <MESSAGE value="-- lesson 9: Begining" />
-    <option name="LAST_COMMIT_MESSAGE" value="-- lesson 9: Begining" />
+    <MESSAGE value="-- lesson 9: Made file-middleware" />
+    <option name="LAST_COMMIT_MESSAGE" value="-- lesson 9: Made file-middleware" />
   </component>
   <component name="WindowStateProjectService">
     <state x="0" y="45" key="#Inspections" timestamp="1601025237443">
@@ -309,11 +322,11 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="413" y="114" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728@0.0.1366.728" timestamp="1598295491612" />
-    <state x="308" y="44" key="CommitChangelistDialog2" timestamp="1601232377521">
+    <state x="308" y="44" key="CommitChangelistDialog2" timestamp="1601335938534">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="308" y="44" key="CommitChangelistDialog2/0.0.1366.728/-1920.-77.1920.1040@0.0.1366.728" timestamp="1600186824962" />
-    <state x="308" y="44" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1601232377521" />
+    <state x="308" y="44" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1601335938534" />
     <state width="254" height="195" key="DatabaseViewActions_Filter" timestamp="1598893811133">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -327,22 +340,22 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="553" y="265" key="Github.ShareDialog/0.0.1366.728@0.0.1366.728" timestamp="1598407369104" />
-    <state width="1323" height="167" key="GridCell.Tab.0.bottom" timestamp="1601233631274">
+    <state width="1323" height="167" key="GridCell.Tab.0.bottom" timestamp="1601353263026">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="167" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1601233631274" />
-    <state width="1323" height="167" key="GridCell.Tab.0.center" timestamp="1601233631274">
+    <state width="1323" height="167" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1601353263026" />
+    <state width="1323" height="167" key="GridCell.Tab.0.center" timestamp="1601353263025">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="167" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1601233631274" />
-    <state width="1323" height="167" key="GridCell.Tab.0.left" timestamp="1601233631273">
+    <state width="1323" height="167" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1601353263025" />
+    <state width="1323" height="167" key="GridCell.Tab.0.left" timestamp="1601353263025">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="167" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1601233631273" />
-    <state width="1323" height="167" key="GridCell.Tab.0.right" timestamp="1601233631274">
+    <state width="1323" height="167" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1601353263025" />
+    <state width="1323" height="167" key="GridCell.Tab.0.right" timestamp="1601353263025">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="167" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1601233631274" />
+    <state width="1323" height="167" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1601353263025" />
     <state width="1323" height="223" key="GridCell.Tab.1.bottom" timestamp="1599230515521">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -419,15 +432,16 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="413" y="168" key="com.intellij.database.dbimport.ImportUtil.ChooseTargetDialog/0.0.1366.728@0.0.1366.728" timestamp="1600790067324" />
-    <state x="479" y="184" width="408" height="356" key="com.intellij.database.psi.DbRenamePsiElementProcessor.DbRenameDialog" timestamp="1600184910634">
+    <state x="479" y="184" width="408" height="356" key="com.intellij.database.psi.DbRenamePsiElementProcessor.DbRenameDialog" timestamp="1601343599793">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="479" y="184" width="408" height="356" key="com.intellij.database.psi.DbRenamePsiElementProcessor.DbRenameDialog/0.0.1366.728/-1920.-77.1920.1040@0.0.1366.728" timestamp="1600184910634" />
-    <state x="326" y="41" width="619" height="518" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog" timestamp="1601208357892">
+    <state x="479" y="184" key="com.intellij.database.psi.DbRenamePsiElementProcessor.DbRenameDialog/0.0.1366.728@0.0.1366.728" timestamp="1601343599793" />
+    <state x="405" y="64" width="619" height="518" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog" timestamp="1601602925150">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="345" y="48" width="748" height="603" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog/0.0.1366.728/-1920.-77.1920.1040@0.0.1366.728" timestamp="1600184923274" />
-    <state x="326" y="41" width="619" height="518" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog/0.0.1366.728@0.0.1366.728" timestamp="1601208357892" />
+    <state x="405" y="64" width="619" height="518" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog/0.0.1366.728@0.0.1366.728" timestamp="1601602925150" />
     <state x="288" y="0" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1598404593982">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

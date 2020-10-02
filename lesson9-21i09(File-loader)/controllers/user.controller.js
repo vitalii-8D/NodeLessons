@@ -1,3 +1,7 @@
+const uuid = require('uuid').v4();
+const fs = require('fs-extra').promises;
+const path = require('path');
+
 const { userService, emailService } = require('../services');
 const { hashPass } = require('../helpers');
 const { WELCOME } = require('../configs/email-action.enum');
@@ -13,14 +17,35 @@ module.exports = {
     },
     addUser: async (req, res) => {
         try {
-            let user = req.body;
+            let { body: user, avatar } = req;
             user.password = await hashPass(user.password);
 
-            const newUsersArr = await userService.pushUser(user);
+            const newUser = await userService.pushUser(user);
+
+            if ( avatar ) {
+                const photoDir = `users/${ newUser.id }/photos`;
+                const fileExtention = avatar.name.split('.').pop();
+                const photoName = `${uuid}.${fileExtention}`;
+
+                /*console.log('----****----  BIG DEBUGING  ----****----');
+                console.log("path.resolve(process.cwd(), 'public', photoDir)     ----     ", path.resolve(process.cwd(), 'public', photoDir));
+                console.log("path.resolve('public', photoDir)     ----     ", path.resolve('public', photoDir));
+                console.log("path.resolve(photoDir)     ----     ", path.resolve(photoDir));
+                console.log("path.resolve(__dirname, 'public', photoDir)     ----     ", path.resolve(__dirname , 'public', photoDir));
+                console.log("path.resolve()     ----     ", path.resolve());
+                console.log('process.cwd()     ----     ', process.cwd());
+                console.log('__dirname     ----     ', __dirname);
+                console.log('----****----  BIG DEBUGING  ----****----');*/
+
+
+                await fs.mkdir(path.resolve(process.cwd(), 'public', photoDir), {recursive: true});
+                await avatar.mv(path.resolve(process.cwd(), 'public', photoDir, photoName));
+                await userService.updateById(newUser.id, {avatar: `${photoDir}/${photoName}`})
+            }
 
             await emailService.sendMail(user.email, WELCOME, { userName: user.name })
 
-            res.json(newUsersArr);
+            res.json(newUser);
         } catch (e) {
             return res.status(400).end(e.message);
         }
@@ -47,7 +72,7 @@ module.exports = {
         try {
             const { id } = req.params;
             const body = req.body;
-            const newUsersArr = await userService.updateOneUser(+id, body);
+            const newUsersArr = await userService.updateById(+id, body);
             res.json(newUsersArr);
         } catch (e) {
             return res.status(400).end(e.message);

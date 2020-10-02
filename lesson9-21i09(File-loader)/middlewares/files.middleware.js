@@ -3,6 +3,15 @@ const { MAX_PHOTO_SIZE, MAX_DOC_SIZE, PHOTO_MIMETYPES, DOCS_MIMETYPES } = requir
 module.exports = {
     checkFile: (req, res, next) => {
         try {
+
+            /*console.log('---***---   req.files   ---***---');
+            console.log(req.files);
+            console.log('---***---   req.files   ---***---');*/
+
+            if ( !req.files ) {
+                return next()
+            }
+
             const photos = [];
             const docs = [];
 
@@ -28,6 +37,20 @@ module.exports = {
 
             req.photos = photos;
             req.docs = docs;
+
+            next();
+        } catch (e) {
+            next(e);
+        }
+    },
+
+    checkPhotoCount: (req, res, next) => {
+        try {
+            if (req.photos.length > 1 ) {
+                return next(new Error('Please, upload just one photo'));
+            }
+
+            req.avatar = req.photos[0];
 
             next();
         } catch (e) {
