@@ -6,14 +6,14 @@ module.exports = {
     fetchAllUsers: () => {
         return User.findAll({});
     },
-    pushUser: (newUserObj) => {
+    pushUser: (newUserObj, transaction) => {
         // Тут транзакція впринципі і не треба)))
         /*return sequelize.transition(t => {
             return User.create(newUserObj, { new: true }, {transition: t});
         }).catch(error => {
             t.rollback();
         })*/
-        return User.create(newUserObj, { new: true });
+        return User.create(newUserObj, { new: true, transaction });
     },
     deleteUser: (id) => {
         return User.destroy({
@@ -28,9 +28,10 @@ module.exports = {
             where: searchObj
         })
     },
-    updateById: async (id, updatedObj) => {
+    updateById: async (id, updatedObj, transaction) => {
         // З Вітіної лекції
         return User.update(updatedObj, {
+            transaction,
             where: { id },
             returning: true,
             plain: true

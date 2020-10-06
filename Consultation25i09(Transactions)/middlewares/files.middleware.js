@@ -5,7 +5,7 @@ module.exports = {
         try {
 
             /*console.log('---***---   req.files   ---***---');
-            console.log(req.files);
+            console.log(req);
             console.log('---***---   req.files   ---***---');*/
 
             if ( !req.files ) {
@@ -16,6 +16,10 @@ module.exports = {
             const docs = [];
 
             const files = Object.values(req.files);
+
+            /*console.log('----****----  files   ***---**');
+            console.log(files);
+            console.log('----****----  files   ***---**');*/
 
             for (let i = 0; i < files.length; i++) {
                 const { size, mimetype, name } = files[i];
@@ -46,6 +50,16 @@ module.exports = {
 
     checkPhotoCount: (req, res, next) => {
         try {
+            /*console.log('----- ****   ***  ---- req.photos');
+            console.log(req.photos);
+            console.log('----- ****   ***  ---- req.photos');*/
+            if ( !req.photos ) {
+                return next()
+            }
+            if ( !req.photos.length ) {
+                return next()
+            }
+
             if (req.photos.length > 1 ) {
                 return next(new Error('Please, upload just one photo'));
             }

@@ -20,63 +20,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="69737fd3-7f85-4d2a-9a19-fb3599e77b90" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Consultation25i09(Transactions)/.env" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Consultation25i09(Transactions)/.sequelizerc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Consultation25i09(Transactions)/app.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Consultation25i09(Transactions)/configs/config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Consultation25i09(Transactions)/configs/constants.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Consultation25i09(Transactions)/configs/db-tables.enum.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Consultation25i09(Transactions)/configs/email-action.enum.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Consultation25i09(Transactions)/configs/regex.enum.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Consultation25i09(Transactions)/configs/sequelize.config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Consultation25i09(Transactions)/controllers/auth.controller.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Consultation25i09(Transactions)/controllers/car.controller.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Consultation25i09(Transactions)/controllers/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Consultation25i09(Transactions)/controllers/user.controller.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Consultation25i09(Transactions)/dataBase/create-transaction.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Consultation25i09(Transactions)/dataBase/migrations/20200919085441-create-users-table.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Consultation25i09(Transactions)/dataBase/migrations/20200919085446-create-cars-table.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Consultation25i09(Transactions)/dataBase/migrations/20200922094931-o_auth.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Consultation25i09(Transactions)/dataBase/models/Car.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Consultation25i09(Transactions)/dataBase/models/OAuth.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Consultation25i09(Transactions)/dataBase/models/User.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Consultation25i09(Transactions)/dataBase/models/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Consultation25i09(Transactions)/dataBase/seeders/20200919090828-insert-cars.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Consultation25i09(Transactions)/dataBase/seeders/20200919090837-insert-users.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Consultation25i09(Transactions)/email-templates/forgot-pass.pug" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Consultation25i09(Transactions)/email-templates/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Consultation25i09(Transactions)/email-templates/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Consultation25i09(Transactions)/email-templates/template.pug" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Consultation25i09(Transactions)/email-templates/welcome.pug" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Consultation25i09(Transactions)/errors/ErrorHandler.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Consultation25i09(Transactions)/errors/errors.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Consultation25i09(Transactions)/errors/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Consultation25i09(Transactions)/errors/statusCodes.enum.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Consultation25i09(Transactions)/helpers/hash-password.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Consultation25i09(Transactions)/helpers/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Consultation25i09(Transactions)/helpers/password-comparator.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Consultation25i09(Transactions)/helpers/tokenizer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Consultation25i09(Transactions)/middlewares/car.middleware.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Consultation25i09(Transactions)/middlewares/files.middleware.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Consultation25i09(Transactions)/middlewares/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Consultation25i09(Transactions)/middlewares/token.middleware.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Consultation25i09(Transactions)/middlewares/user.middleware.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Consultation25i09(Transactions)/public/users/24/photos/31ee4c3b-7ec7-464e-8db2-dacca234dab7.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Consultation25i09(Transactions)/public/users/25/photos/d2334ef2-4c4c-4b8e-a982-5858eec5ddc8.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Consultation25i09(Transactions)/routers/api.router.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Consultation25i09(Transactions)/routers/auth.router.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Consultation25i09(Transactions)/routers/car.router.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Consultation25i09(Transactions)/routers/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Consultation25i09(Transactions)/routers/user.router.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Consultation25i09(Transactions)/services/car.service.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Consultation25i09(Transactions)/services/email.service.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Consultation25i09(Transactions)/services/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Consultation25i09(Transactions)/services/oAuth.service.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Consultation25i09(Transactions)/services/user.service.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Consultation25i09(Transactions)/validators/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Consultation25i09(Transactions)/validators/user/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Consultation25i09(Transactions)/validators/user/new-user.validator.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Consultation25i09(Transactions)/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/Consultation25i09(Transactions)/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Consultation25i09(Transactions)/controllers/user.controller.js" beforeDir="false" afterPath="$PROJECT_DIR$/Consultation25i09(Transactions)/controllers/user.controller.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Consultation25i09(Transactions)/dataBase/create-transaction.js" beforeDir="false" afterPath="$PROJECT_DIR$/Consultation25i09(Transactions)/dataBase/create-transaction.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Consultation25i09(Transactions)/dataBase/models/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/Consultation25i09(Transactions)/dataBase/models/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Consultation25i09(Transactions)/middlewares/files.middleware.js" beforeDir="false" afterPath="$PROJECT_DIR$/Consultation25i09(Transactions)/middlewares/files.middleware.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Consultation25i09(Transactions)/services/user.service.js" beforeDir="false" afterPath="$PROJECT_DIR$/Consultation25i09(Transactions)/services/user.service.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -168,6 +119,8 @@
       <workItem from="1601230949546" duration="6525000" />
       <workItem from="1601324887500" duration="10491000" />
       <workItem from="1601573150498" duration="13948000" />
+      <workItem from="1601662388558" duration="16724000" />
+      <workItem from="1601944088080" duration="1233000" />
     </task>
     <task id="LOCAL-00001" summary="-- Debugging of RecursiveCopier">
       <created>1598407298008</created>
@@ -396,22 +349,22 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="553" y="265" key="Github.ShareDialog/0.0.1366.728@0.0.1366.728" timestamp="1598407369104" />
-    <state width="1323" height="167" key="GridCell.Tab.0.bottom" timestamp="1601353263026">
+    <state width="1323" height="167" key="GridCell.Tab.0.bottom" timestamp="1601827518530">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="167" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1601353263026" />
-    <state width="1323" height="167" key="GridCell.Tab.0.center" timestamp="1601353263025">
+    <state width="1323" height="167" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1601827518530" />
+    <state width="1323" height="167" key="GridCell.Tab.0.center" timestamp="1601827518529">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="167" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1601353263025" />
-    <state width="1323" height="167" key="GridCell.Tab.0.left" timestamp="1601353263025">
+    <state width="1323" height="167" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1601827518529" />
+    <state width="1323" height="167" key="GridCell.Tab.0.left" timestamp="1601827518529">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="167" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1601353263025" />
-    <state width="1323" height="167" key="GridCell.Tab.0.right" timestamp="1601353263025">
+    <state width="1323" height="167" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1601827518529" />
+    <state width="1323" height="167" key="GridCell.Tab.0.right" timestamp="1601827518529">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="167" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1601353263025" />
+    <state width="1323" height="167" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1601827518529" />
     <state width="1323" height="223" key="GridCell.Tab.1.bottom" timestamp="1599230515521">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

@@ -1,5 +1,5 @@
 const express = require('express');
-const {sequelize} = require('./dataBase/models');
+const { sequelize } = require('./dataBase/models');
 const fileUpload = require('express-fileupload');
 const apiRouter = require('./routers/api.router');
 const path = require('path');
@@ -8,7 +8,7 @@ const dotenv = require('dotenv');
 dotenv.config();
 
 const app = express();
-app.use(express.urlencoded({extended: true}));
+app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 app.use(fileUpload({}));
 app.use('/api', apiRouter);
@@ -23,18 +23,18 @@ app.use('*', async (err, req, res, next) => {
 })
 
 sequelize
-.sync({alter: true})
-.then(() => {
-    app.listen(5000, (err) => {
-        if (err) {
-            console.log(err);
-        }
-        console.log('Server starting on port: 5000');
+    .sync({ alter: true })
+    .then(() => {
+        app.listen(5000, (err) => {
+            if ( err ) {
+                console.log(err);
+            }
+            console.log('Server starting on port: 5000');
+        })
     })
-})
-.catch(err => {
-    console.log(err);
-})
+    .catch(err => {
+        console.log(err);
+    })
 
 process.on("unhandledRejection", reason => {
     console.log('--------- reason ---------');
