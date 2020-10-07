@@ -9,4 +9,7 @@ module.exports = {
 
     ACCESS_TOKEN_SECRET: "access-secret",
     REFRESH_TOKEN_SECRET: "refresh-secret",
+
+    WHITE_LIST: process.env.WHITE_LIST || 'http://localhost:3000;http://localhost:5000',
+    ENV: process.env.ENV || 'DEV'
 }

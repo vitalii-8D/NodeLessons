@@ -5,6 +5,9 @@ const apiRouter = require('./routers/api.router');
 const path = require('path');
 const dotenv = require('dotenv');
 const mongoose = require('mongoose');
+const { cronRunDone } = require('./cron-jobs');
+const cors = require('cors');
+const { WHITE_LIST, ENV } = require('./configs/config');
 
 dotenv.config();
 
@@ -15,6 +18,20 @@ app.use(fileUpload({}));
 app.use('/api', apiRouter);
 app.use(express.static(path.join(process.cwd(), 'public')));
 
+if (ENV === 'DEV' ) {
+    app.use(cors())
+} else {
+    app.use(cors({
+        origin: (origin, callback) => {
+            if ( WHITE_LIST.split(';').includes(origin) ) {
+                callback(null, true)
+            } else {
+                callback(new Error('Not allowd by CORS'))
+            }
+        }
+    }))
+}
+
 app.use('*', async (err, req, res, next) => {
     await res.status(err.status || 404)
         .json({
@@ -24,7 +41,7 @@ app.use('*', async (err, req, res, next) => {
 })
 
 // Підключення
-mongoose.connect(encodeURI('mongodb://localhost/car_shop'), {useNewUrlParser: true});
+mongoose.connect(encodeURI('mongodb://localhost/car_shop'), { useNewUrlParser: true });
 const db = mongoose.connection;
 // У Віті на проекті
 // db.on('error', console.error.bind)
@@ -40,6 +57,7 @@ sequelize
             if ( err ) {
                 console.log(err);
             }
+            cronRunDone();
             console.log('Server starting on port: 5000');
         })
     })

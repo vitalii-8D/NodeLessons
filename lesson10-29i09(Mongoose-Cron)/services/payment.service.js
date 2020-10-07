@@ -1,13 +1,17 @@
-const PaymentModel = require('../dataBase/mongo-models/payment');
+const {Payments} = require('../dataBase/mongo-models');
 
 class PaymentService {
     getAllPayments() {
-        return PaymentModel.find({})
+        return Payment.find({})
     }
     createPayment(objectToCreate) {
-        return new PaymentModel(objectToCreate).save();
+        return new Payment(objectToCreate).save();
     }
     deleteById(id) {
-        return PaymentModel.findByIdAndDelete(id)
+        return Payment.findByIdAndDelete(id)
     }
+
+
 }
+
+module.exports = new PaymentService();

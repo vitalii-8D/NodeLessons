@@ -12,7 +12,7 @@ const logsSubSchema = {
 
 const PaymentSchema = new Schema({
     currency: {
-        type: Number,
+        type: String,
         required: true
     },
     value: {
