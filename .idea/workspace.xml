@@ -20,27 +20,84 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="69737fd3-7f85-4d2a-9a19-fb3599e77b90" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/lesson10-29i09(Mongoose-Cron)/controllers/mongo.controller.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson10-29i09(Mongoose-Cron)/controllers/payment.controller.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson10-29i09(Mongoose-Cron)/cron-jobs/clear-old-tokens.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson10-29i09(Mongoose-Cron)/cron-jobs/cron-run.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson10-29i09(Mongoose-Cron)/cron-jobs/get-registered-users-count.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson10-29i09(Mongoose-Cron)/cron-jobs/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson10-29i09(Mongoose-Cron)/dataBase/mongo-models/cars.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson10-29i09(Mongoose-Cron)/dataBase/mongo-models/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson10-29i09(Mongoose-Cron)/dataBase/mongo-models/users.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson10-29i09(Mongoose-Cron)/routers/mongo.router.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson10-29i09(Mongoose-Cron)/routers/payment.router.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson10-29i09(Mongoose-Cron)/services/mongo.service.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson11-05i10(Winston)/.env" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson11-05i10(Winston)/.sequelizerc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson11-05i10(Winston)/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson11-05i10(Winston)/configs/config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson11-05i10(Winston)/configs/constants.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson11-05i10(Winston)/configs/db-tables.enum.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson11-05i10(Winston)/configs/email-action.enum.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson11-05i10(Winston)/configs/regex.enum.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson11-05i10(Winston)/configs/sequelize.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson11-05i10(Winston)/controllers/auth.controller.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson11-05i10(Winston)/controllers/car.controller.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson11-05i10(Winston)/controllers/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson11-05i10(Winston)/controllers/mongo.controller.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson11-05i10(Winston)/controllers/payment.controller.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson11-05i10(Winston)/controllers/user.controller.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson11-05i10(Winston)/cron-jobs/clear-old-tokens.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson11-05i10(Winston)/cron-jobs/cron-run.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson11-05i10(Winston)/cron-jobs/get-registered-users-count.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson11-05i10(Winston)/cron-jobs/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson11-05i10(Winston)/dataBase/create-transaction.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson11-05i10(Winston)/dataBase/migrations/20200919085441-create-users-table.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson11-05i10(Winston)/dataBase/migrations/20200919085446-create-cars-table.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson11-05i10(Winston)/dataBase/migrations/20200922094931-o_auth.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson11-05i10(Winston)/dataBase/models/Car.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson11-05i10(Winston)/dataBase/models/OAuth.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson11-05i10(Winston)/dataBase/models/User.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson11-05i10(Winston)/dataBase/models/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson11-05i10(Winston)/dataBase/mongo-models/cars.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson11-05i10(Winston)/dataBase/mongo-models/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson11-05i10(Winston)/dataBase/mongo-models/payment.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson11-05i10(Winston)/dataBase/mongo-models/users.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson11-05i10(Winston)/dataBase/seeders/20200919090828-insert-cars.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson11-05i10(Winston)/dataBase/seeders/20200919090837-insert-users.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson11-05i10(Winston)/email-templates/forgot-pass.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson11-05i10(Winston)/email-templates/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson11-05i10(Winston)/email-templates/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson11-05i10(Winston)/email-templates/template.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson11-05i10(Winston)/email-templates/welcome.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson11-05i10(Winston)/errors/ErrorHandler.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson11-05i10(Winston)/errors/errors.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson11-05i10(Winston)/errors/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson11-05i10(Winston)/errors/statusCodes.enum.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson11-05i10(Winston)/helpers/hash-password.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson11-05i10(Winston)/helpers/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson11-05i10(Winston)/helpers/password-comparator.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson11-05i10(Winston)/helpers/tokenizer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson11-05i10(Winston)/middlewares/car.middleware.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson11-05i10(Winston)/middlewares/files.middleware.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson11-05i10(Winston)/middlewares/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson11-05i10(Winston)/middlewares/token.middleware.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson11-05i10(Winston)/middlewares/user.middleware.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson11-05i10(Winston)/public/users/24/photos/31ee4c3b-7ec7-464e-8db2-dacca234dab7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson11-05i10(Winston)/public/users/25/photos/d2334ef2-4c4c-4b8e-a982-5858eec5ddc8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson11-05i10(Winston)/public/users/26/photos/f1798e1f-9418-44e0-9869-f421a9484acf.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson11-05i10(Winston)/public/users/27/photos/58ef3cce-77b9-4e31-93be-d2b14ad9d8d1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson11-05i10(Winston)/public/users/40/photos/9197b545-fcdb-4f5c-a406-685da25c2cd2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson11-05i10(Winston)/public/users/41/photos/97b9e9de-6be2-4f1a-9a5a-e0b1782aeb5e.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson11-05i10(Winston)/public/users/42/photos/a79c7acc-20c4-44ed-ad7d-6da1cd83d5fd.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson11-05i10(Winston)/public/users/43/photos/7e2b4f8a-1d10-4414-9223-2a56757ce6e6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson11-05i10(Winston)/public/users/44/photos/83859c67-391a-4468-a36b-45ccc6484d0a.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson11-05i10(Winston)/routers/api.router.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson11-05i10(Winston)/routers/auth.router.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson11-05i10(Winston)/routers/car.router.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson11-05i10(Winston)/routers/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson11-05i10(Winston)/routers/mongo.router.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson11-05i10(Winston)/routers/payment.router.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson11-05i10(Winston)/routers/user.router.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson11-05i10(Winston)/services/car.service.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson11-05i10(Winston)/services/email.service.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson11-05i10(Winston)/services/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson11-05i10(Winston)/services/mongo.service.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson11-05i10(Winston)/services/oAuth.service.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson11-05i10(Winston)/services/payment.service.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson11-05i10(Winston)/services/user.service.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson11-05i10(Winston)/validators/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson11-05i10(Winston)/validators/user/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson11-05i10(Winston)/validators/user/new-user.validator.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson10-29i09(Mongoose-Cron)/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/lesson10-29i09(Mongoose-Cron)/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson10-29i09(Mongoose-Cron)/configs/config.js" beforeDir="false" afterPath="$PROJECT_DIR$/lesson10-29i09(Mongoose-Cron)/configs/config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson10-29i09(Mongoose-Cron)/controllers/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/lesson10-29i09(Mongoose-Cron)/controllers/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson10-29i09(Mongoose-Cron)/dataBase/mongo-models/payment.js" beforeDir="false" afterPath="$PROJECT_DIR$/lesson10-29i09(Mongoose-Cron)/dataBase/mongo-models/payment.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson10-29i09(Mongoose-Cron)/routers/api.router.js" beforeDir="false" afterPath="$PROJECT_DIR$/lesson10-29i09(Mongoose-Cron)/routers/api.router.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson10-29i09(Mongoose-Cron)/routers/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/lesson10-29i09(Mongoose-Cron)/routers/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson10-29i09(Mongoose-Cron)/services/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/lesson10-29i09(Mongoose-Cron)/services/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson10-29i09(Mongoose-Cron)/services/payment.service.js" beforeDir="false" afterPath="$PROJECT_DIR$/lesson10-29i09(Mongoose-Cron)/services/payment.service.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -77,20 +134,14 @@
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="GitIgnore" />
     <property name="javascript.nodejs.core.library.configured.version" value="12.16.3" />
     <property name="js.last.introduce.type" value="CONST" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/lesson10-29i09(Mongoose-Cron)" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/lesson11-05i10(Winston)/app.js" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="preferences.updates" />
     <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\WebStorm 2020.1\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="V:\NodeProjects\NodeLessons\lesson10-29i09(Mongoose-Cron)" />
-      <recent name="V:\NodeProjects\NodeLessons\Consultation25i09(Transactions)" />
-      <recent name="V:\NodeProjects\NodeLessons\lesson9-21i09(File-loader)" />
-      <recent name="V:\NodeProjects\NodeLessons\lesson8-21i09(Mailer)" />
-      <recent name="V:\NodeProjects\NodeLessons\lesson7-19i09(JWT-GitFlow)" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="V:\NodeProjects\NodeLessons\lesson6-19i09(Joi-Bcrypt)\dataBase\migrations-module" />
       <recent name="V:\NodeProjects\NodeLessons\lesson6-19i09(Joi-Bcrypt)\dataBase\migrations" />
@@ -98,9 +149,16 @@
       <recent name="V:\NodeProjects\NodeLessons\HW3_Cars1\db" />
       <recent name="V:\NodeProjects\NodeLessons\HW_RegistrationForm" />
     </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="V:\NodeProjects\NodeLessons\lesson11-05i10(Winston)" />
+      <recent name="V:\NodeProjects\NodeLessons\lesson10-29i09(Mongoose-Cron)" />
+      <recent name="V:\NodeProjects\NodeLessons\Consultation25i09(Transactions)" />
+      <recent name="V:\NodeProjects\NodeLessons\lesson9-21i09(File-loader)" />
+      <recent name="V:\NodeProjects\NodeLessons\lesson8-21i09(Mailer)" />
+    </key>
   </component>
   <component name="RunManager">
-    <configuration name="app.js" type="NodeJSConfigurationType" nameIsGenerated="true" path-to-js-file="lesson5-11i09(Migrations-Errors)/app.js" working-dir="$PROJECT_DIR$">
+    <configuration name="Lessons" type="NodeJSConfigurationType" path-to-js-file="lesson11-05i10(Winston)/app.js" working-dir="$PROJECT_DIR$">
       <method v="2" />
     </configuration>
   </component>
@@ -135,7 +193,9 @@
       <workItem from="1601573150498" duration="13948000" />
       <workItem from="1601662388558" duration="16724000" />
       <workItem from="1601944088080" duration="8003000" />
-      <workItem from="1601977785795" duration="16405000" />
+      <workItem from="1601977785795" duration="16441000" />
+      <workItem from="1602085295799" duration="8530000" />
+      <workItem from="1602154449164" duration="6732000" />
     </task>
     <task id="LOCAL-00001" summary="-- Debugging of RecursiveCopier">
       <created>1598407298008</created>
@@ -291,7 +351,14 @@
       <option name="project" value="LOCAL" />
       <updated>1601961555043</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="-- lesson 10: Did all">
+      <created>1602083322415</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1602083322415</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -329,7 +396,8 @@
     <MESSAGE value="-- lesson 9: Ending of file-upload lesson" />
     <MESSAGE value="-- Consultation Transaction: Ending transaction" />
     <MESSAGE value="-- lesson 10: Begining" />
-    <option name="LAST_COMMIT_MESSAGE" value="-- lesson 10: Begining" />
+    <MESSAGE value="-- lesson 10: Did all" />
+    <option name="LAST_COMMIT_MESSAGE" value="-- lesson 10: Did all" />
   </component>
   <component name="WindowStateProjectService">
     <state x="0" y="45" key="#Inspections" timestamp="1601025237443">
@@ -348,111 +416,123 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="57" y="205" key="#SQL_Dialects/0.0.1366.728@0.0.1366.728" timestamp="1598973677503" />
-    <state x="219" y="76" width="915" height="556" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1600768624935">
+    <state x="219" y="76" width="915" height="556" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1602089928281">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="219" y="37" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728/-1920.-77.1920.1040@0.0.1366.728" timestamp="1600157715894" />
-    <state x="219" y="76" width="915" height="556" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1600768624935" />
+    <state x="219" y="76" width="915" height="556" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1602089928281" />
     <state x="439" y="165" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1600153018705">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="439" y="165" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728/-1920.-77.1920.1040@0.0.1366.728" timestamp="1600153018705" />
     <state x="439" y="165" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728@0.0.1366.728" timestamp="1598443981680" />
+    <state x="363" y="99" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1602088619644">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="363" y="99" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1366.728@0.0.1366.728" timestamp="1602088619644" />
     <state x="413" y="114" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1598295491612">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="413" y="114" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728@0.0.1366.728" timestamp="1598295491612" />
-    <state x="439" y="25" key="CommitChangelistDialog2" timestamp="1601961553137">
+    <state x="440" y="233" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1602085305940">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="440" y="233" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1366.728@0.0.1366.728" timestamp="1602085305940" />
+    <state x="439" y="25" key="CommitChangelistDialog2" timestamp="1602083321131">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="308" y="44" key="CommitChangelistDialog2/0.0.1366.728/-1920.-77.1920.1040@0.0.1366.728" timestamp="1600186824962" />
-    <state x="439" y="25" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1601961553137" />
+    <state x="439" y="25" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1602083321131" />
     <state width="254" height="195" key="DatabaseViewActions_Filter" timestamp="1598893811133">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="254" height="195" key="DatabaseViewActions_Filter/0.0.1366.728@0.0.1366.728" timestamp="1598893811133" />
-    <state x="463" y="108" key="FileChooserDialogImpl" timestamp="1600162623369">
+    <state width="785" height="466" key="DebuggerActiveHint" timestamp="1602091344679">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="785" height="466" key="DebuggerActiveHint/0.0.1366.728@0.0.1366.728" timestamp="1602091344679" />
+    <state x="463" y="108" key="FileChooserDialogImpl" timestamp="1602087937923">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="463" y="108" key="FileChooserDialogImpl/0.0.1366.728/-1920.-77.1920.1040@0.0.1366.728" timestamp="1600162623369" />
-    <state x="463" y="108" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1599228796364" />
+    <state x="463" y="108" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1602087937923" />
     <state x="553" y="265" key="Github.ShareDialog" timestamp="1598407369104">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="553" y="265" key="Github.ShareDialog/0.0.1366.728@0.0.1366.728" timestamp="1598407369104" />
-    <state width="1323" height="167" key="GridCell.Tab.0.bottom" timestamp="1602010297211">
+    <state width="1323" height="278" key="GridCell.Tab.0.bottom" timestamp="1602164056255">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="167" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1602010297211" />
-    <state width="1323" height="167" key="GridCell.Tab.0.center" timestamp="1602010297211">
+    <state width="1323" height="278" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1602164056255" />
+    <state width="1323" height="278" key="GridCell.Tab.0.center" timestamp="1602164056255">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="167" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1602010297211" />
-    <state width="1323" height="167" key="GridCell.Tab.0.left" timestamp="1602010297210">
+    <state width="1323" height="278" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1602164056255" />
+    <state width="1323" height="278" key="GridCell.Tab.0.left" timestamp="1602164056254">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="167" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1602010297210" />
-    <state width="1323" height="167" key="GridCell.Tab.0.right" timestamp="1602010297211">
+    <state width="1323" height="278" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1602164056254" />
+    <state width="1323" height="278" key="GridCell.Tab.0.right" timestamp="1602164056255">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="167" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1602010297211" />
-    <state width="1323" height="223" key="GridCell.Tab.1.bottom" timestamp="1599230515521">
+    <state width="1323" height="278" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1602164056255" />
+    <state width="1323" height="278" key="GridCell.Tab.1.bottom" timestamp="1602164056256">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="223" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1599230515521" />
-    <state width="1323" height="223" key="GridCell.Tab.1.center" timestamp="1599230515521">
+    <state width="1323" height="278" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1602164056256" />
+    <state width="1323" height="278" key="GridCell.Tab.1.center" timestamp="1602164056255">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="223" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1599230515521" />
-    <state width="1323" height="223" key="GridCell.Tab.1.left" timestamp="1599230515521">
+    <state width="1323" height="278" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1602164056255" />
+    <state width="1323" height="278" key="GridCell.Tab.1.left" timestamp="1602164056255">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="223" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1599230515521" />
-    <state width="1323" height="223" key="GridCell.Tab.1.right" timestamp="1599230515521">
+    <state width="1323" height="278" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1602164056255" />
+    <state width="1323" height="278" key="GridCell.Tab.1.right" timestamp="1602164056255">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="223" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1599230515521" />
-    <state width="1323" height="223" key="GridCell.Tab.2.bottom" timestamp="1599230515521">
+    <state width="1323" height="278" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1602164056255" />
+    <state width="1323" height="278" key="GridCell.Tab.2.bottom" timestamp="1602164056256">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="223" key="GridCell.Tab.2.bottom/0.0.1366.728@0.0.1366.728" timestamp="1599230515521" />
-    <state width="1323" height="223" key="GridCell.Tab.2.center" timestamp="1599230515521">
+    <state width="1323" height="278" key="GridCell.Tab.2.bottom/0.0.1366.728@0.0.1366.728" timestamp="1602164056256" />
+    <state width="1323" height="278" key="GridCell.Tab.2.center" timestamp="1602164056256">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="223" key="GridCell.Tab.2.center/0.0.1366.728@0.0.1366.728" timestamp="1599230515521" />
-    <state width="1323" height="223" key="GridCell.Tab.2.left" timestamp="1599230515521">
+    <state width="1323" height="278" key="GridCell.Tab.2.center/0.0.1366.728@0.0.1366.728" timestamp="1602164056256" />
+    <state width="1323" height="278" key="GridCell.Tab.2.left" timestamp="1602164056256">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="223" key="GridCell.Tab.2.left/0.0.1366.728@0.0.1366.728" timestamp="1599230515521" />
-    <state width="1323" height="223" key="GridCell.Tab.2.right" timestamp="1599230515521">
+    <state width="1323" height="278" key="GridCell.Tab.2.left/0.0.1366.728@0.0.1366.728" timestamp="1602164056256" />
+    <state width="1323" height="278" key="GridCell.Tab.2.right" timestamp="1602164056256">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="223" key="GridCell.Tab.2.right/0.0.1366.728@0.0.1366.728" timestamp="1599230515521" />
-    <state width="1323" height="223" key="GridCell.Tab.3.bottom" timestamp="1599230515521">
+    <state width="1323" height="278" key="GridCell.Tab.2.right/0.0.1366.728@0.0.1366.728" timestamp="1602164056256" />
+    <state width="1323" height="278" key="GridCell.Tab.3.bottom" timestamp="1602164056257">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="223" key="GridCell.Tab.3.bottom/0.0.1366.728@0.0.1366.728" timestamp="1599230515521" />
-    <state width="1323" height="223" key="GridCell.Tab.3.center" timestamp="1599230515521">
+    <state width="1323" height="278" key="GridCell.Tab.3.bottom/0.0.1366.728@0.0.1366.728" timestamp="1602164056257" />
+    <state width="1323" height="278" key="GridCell.Tab.3.center" timestamp="1602164056256">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="223" key="GridCell.Tab.3.center/0.0.1366.728@0.0.1366.728" timestamp="1599230515521" />
-    <state width="1323" height="223" key="GridCell.Tab.3.left" timestamp="1599230515521">
+    <state width="1323" height="278" key="GridCell.Tab.3.center/0.0.1366.728@0.0.1366.728" timestamp="1602164056256" />
+    <state width="1323" height="278" key="GridCell.Tab.3.left" timestamp="1602164056256">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="223" key="GridCell.Tab.3.left/0.0.1366.728@0.0.1366.728" timestamp="1599230515521" />
-    <state width="1323" height="223" key="GridCell.Tab.3.right" timestamp="1599230515521">
+    <state width="1323" height="278" key="GridCell.Tab.3.left/0.0.1366.728@0.0.1366.728" timestamp="1602164056256" />
+    <state width="1323" height="278" key="GridCell.Tab.3.right" timestamp="1602164056257">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="223" key="GridCell.Tab.3.right/0.0.1366.728@0.0.1366.728" timestamp="1599230515521" />
+    <state width="1323" height="278" key="GridCell.Tab.3.right/0.0.1366.728@0.0.1366.728" timestamp="1602164056257" />
     <state width="196" height="457" key="HiddenNamespacesPopup" timestamp="1599807381347">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="196" height="457" key="HiddenNamespacesPopup/0.0.1366.728/-1920.-77.1920.1040@0.0.1366.728" timestamp="1599807381347" />
     <state width="196" height="457" key="HiddenNamespacesPopup/0.0.1366.728@0.0.1366.728" timestamp="1598894950547" />
-    <state x="170" y="10" key="SettingsEditor" timestamp="1601044945713">
+    <state x="170" y="10" key="SettingsEditor" timestamp="1602089088565">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="170" y="10" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1601044945713" />
+    <state x="170" y="10" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1602089088565" />
     <state x="275" y="100" key="Vcs.Push.Dialog.v2" timestamp="1601609940440">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
