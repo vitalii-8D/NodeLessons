@@ -5,10 +5,11 @@ const crearOldTokens = require('./clear-old-tokens');
 module.exports = () => {
     try {
         cron.schedule('* * * * *', async () => {
-            console.log('----------  ITERATION START   -------------');
+            /*console.log('----------  ITERATION START   -------------');
             console.log('--**--    DONE!!!   --**--');
             getRegisteredUserCron();
-            console.log('----------  ITERATION FINISH   -------------');
+            console.log('----------  ITERATION FINISH   -------------');*/
+            console.log('----------  CRON RUN   -------------');
         })
         cron.schedule('* * 1 * *', async () => {
             crearOldTokens();

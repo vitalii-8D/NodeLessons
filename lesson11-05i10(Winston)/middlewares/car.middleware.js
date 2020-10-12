@@ -4,19 +4,19 @@ module.exports = {
     carValidator: (req, res, next) => {
         try {
             const car = req.body;
-            if (!Object.keys(car).length) {
+            if ( !Object.keys(car).length ) {
                 throw new CustomError('Missing car object', 400, 'car-middleware', 4001)
             }
-            if (!car.model) {
+            if ( !car.model ) {
                 throw new CustomError('Missing car`s model', 400, 'car-middleware', 4002)
             }
-            if (!car.year) {
+            if ( !car.year ) {
                 throw new CustomError('Missing car`s year', 400, 'car-middleware', 4003)
             }
-            if (!car.price) {
+            if ( !car.price ) {
                 throw new CustomError('Missing car`s price', 400, 'car-middleware', 4004)
             }
-            if (!car.userId) {
+            if ( !car.userId ) {
                 throw new CustomError('Missing car`s userId', 400, 'car-middleware', 4003)
             }
             next();
